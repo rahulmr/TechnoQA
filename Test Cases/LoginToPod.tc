@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LoginToPod</description>
+   <name>LoginToPod</name>
+   <tag>LoginToPod</tag>
+   <comment></comment>
+   <testCaseGuid>c95fe764-4f85-473e-aa45-df20cd2f58d3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Compass</description>
+   <name>SmallCompassWest</name>
+   <tag>Compass</tag>
+   <comment></comment>
+   <testCaseGuid>ca77ed0a-bab2-4611-90bb-ff931bf83422</testCaseGuid>
+</TestCaseEntity>

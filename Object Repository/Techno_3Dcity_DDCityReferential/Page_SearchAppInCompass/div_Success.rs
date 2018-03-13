@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Success</name>
+   <tag></tag>
+   <elementGuidId>436d7096-40a6-4a05-8e6c-f4e0a8d58025</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;my-apps-ct&quot;)/div[@class=&quot;my-apps-panel items-per-line-5 west&quot;]/div[@class=&quot;compass-overlay&quot;]/div[@class=&quot;compass-overlay-text&quot;][count(. | //div[@class = 'compass-overlay-text' and (text() = 'Success' or . = 'Success')]) = count(//div[@class = 'compass-overlay-text' and (text() = 'Success' or . = 'Success')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>compass-overlay-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Success</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;my-apps-ct&quot;)/div[@class=&quot;my-apps-panel items-per-line-5 west&quot;]/div[@class=&quot;compass-overlay&quot;]/div[@class=&quot;compass-overlay-text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

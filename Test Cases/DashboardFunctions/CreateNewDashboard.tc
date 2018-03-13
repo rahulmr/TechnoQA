@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CreateNewDashboard</description>
+   <name>CreateNewDashboard</name>
+   <tag>CreateNewDashboard</tag>
+   <comment></comment>
+   <testCaseGuid>bd2d02b0-a4f7-405f-82e6-b25ae993c2bb</testCaseGuid>
+</TestCaseEntity>
