@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+R2018x_AllScenarioRun,Chrome 64.0.3282.167,R2018x_AllScenarioRun,2018-03-08 15:13:29,2018-03-08 15:15:13,1m - 44.224s,PASSED
+,,,,,,
+Test Cases/Scenarios/SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.167,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-08 15:13:29,2018-03-08 15:13:41,11.605s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:13:30,2018-03-08 15:13:34,4.587s,PASSED
+callTestCase,Chrome 64.0.3282.167,Login To POD,2018-03-08 15:13:34,2018-03-08 15:13:36,2.160s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Dashboard,2018-03-08 15:13:36,2018-03-08 15:13:37,0.550s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Tab,2018-03-08 15:13:37,2018-03-08 15:13:38,0.948s,PASSED
+callTestCase,Chrome 64.0.3282.167,Click on West part of compass - Small compass,2018-03-08 15:13:38,2018-03-08 15:13:40,2.006s,PASSED
+callTestCase,Chrome 64.0.3282.167,Logout from POD,2018-03-08 15:13:40,2018-03-08 15:13:41,1.139s,PASSED
+,,,,,,
+Test Cases/Scenarios/SCN047864 Auto_3DCityCity Referential test,Chrome 64.0.3282.167,SCN047864  Auto_3DCityCity Referential test,2018-03-08 15:13:41,2018-03-08 15:15:13,1m - 32.368s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:13:41,2018-03-08 15:13:45,3.748s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:13:45,2018-03-08 15:13:47,1.921s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:13:47,2018-03-08 15:13:47,0.415s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:13:47,2018-03-08 15:14:37,50.078s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:14:37,2018-03-08 15:14:39,1.392s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:14:39,2018-03-08 15:15:12,33.261s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:15:12,2018-03-08 15:15:13,1.455s,PASSED

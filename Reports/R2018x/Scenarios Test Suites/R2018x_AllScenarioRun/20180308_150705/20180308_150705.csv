@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+R2018x_AllScenarioRun,Chrome 64.0.3282.167,R2018x_AllScenarioRun,2018-03-08 15:07:07,2018-03-08 15:07:47,40.642s,FAILED
+,,,,,,
+Test Cases/Scenarios/SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.167,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-08 15:07:07,2018-03-08 15:07:19,12.048s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:07,2018-03-08 15:07:12,4.635s,PASSED
+callTestCase,Chrome 64.0.3282.167,Login To POD,2018-03-08 15:07:12,2018-03-08 15:07:14,2.377s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Dashboard,2018-03-08 15:07:14,2018-03-08 15:07:15,0.711s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Tab,2018-03-08 15:07:15,2018-03-08 15:07:16,0.917s,PASSED
+callTestCase,Chrome 64.0.3282.167,Click on West part of compass - Small compass,2018-03-08 15:07:16,2018-03-08 15:07:18,1.963s,PASSED
+callTestCase,Chrome 64.0.3282.167,Logout from POD,2018-03-08 15:07:18,2018-03-08 15:07:19,1.205s,PASSED
+,,,,,,
+Test Cases/Scenarios/SCN047864 Auto_3DCityCity Referential test,Chrome 64.0.3282.167,SCN047864  Auto_3DCityCity Referential test,2018-03-08 15:07:19,2018-03-08 15:07:32,13.502s,FAILED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:19,2018-03-08 15:07:23,3.776s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:23,2018-03-08 15:07:25,1.965s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:25,2018-03-08 15:07:25,0.406s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:25,2018-03-08 15:07:32,7.268s,FAILED
+,,,,,,
+Test Cases/Scenarios/SCN048023 Auto_3DCity City Discover widget test,Chrome 64.0.3282.167,SCN048023 Auto_3DCity City Discover widget test,2018-03-08 15:07:32,2018-03-08 15:07:46,14.134s,FAILED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:32,2018-03-08 15:07:37,4.542s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:37,2018-03-08 15:07:39,1.894s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:39,2018-03-08 15:07:39,0.388s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 15:07:39,2018-03-08 15:07:46,7.224s,FAILED

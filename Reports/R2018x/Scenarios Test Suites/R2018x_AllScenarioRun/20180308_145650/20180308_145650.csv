@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+R2018x_AllScenarioRun,Chrome 64.0.3282.167,R2018x_AllScenarioRun,2018-03-08 14:56:51,2018-03-08 14:58:21,1m - 30.343s,FAILED
+,,,,,,
+Test Cases/Scenarios/SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.167,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-08 14:56:51,2018-03-08 14:57:03,11.727s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:56:51,2018-03-08 14:56:56,4.552s,PASSED
+callTestCase,Chrome 64.0.3282.167,Login To POD,2018-03-08 14:56:56,2018-03-08 14:56:58,2.304s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Dashboard,2018-03-08 14:56:58,2018-03-08 14:56:59,0.535s,PASSED
+callTestCase,Chrome 64.0.3282.167,Create New Tab,2018-03-08 14:56:59,2018-03-08 14:57:00,0.924s,PASSED
+callTestCase,Chrome 64.0.3282.167,Click on West part of compass - Small compass,2018-03-08 14:57:00,2018-03-08 14:57:02,2.005s,PASSED
+callTestCase,Chrome 64.0.3282.167,Logout from POD,2018-03-08 14:57:02,2018-03-08 14:57:03,1.169s,PASSED
+,,,,,,
+Test Cases/Scenarios/SCN047864 Auto_3DCityCity Referential test,Chrome 64.0.3282.167,SCN047864  Auto_3DCityCity Referential test,2018-03-08 14:57:03,2018-03-08 14:57:55,52.236s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:03,2018-03-08 14:57:07,3.753s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:07,2018-03-08 14:57:09,1.873s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:09,2018-03-08 14:57:09,0.385s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:09,2018-03-08 14:57:19,9.955s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:19,2018-03-08 14:57:20,1.542s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:20,2018-03-08 14:57:53,32.974s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:53,2018-03-08 14:57:55,1.658s,PASSED
+,,,,,,
+Test Cases/Scenarios/SCN048023 Auto_3DCity City Discover widget test,Chrome 64.0.3282.167,SCN048023 Auto_3DCity City Discover widget test,2018-03-08 14:57:55,2018-03-08 14:58:20,25.417s,FAILED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:55,2018-03-08 14:57:59,3.896s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:57:59,2018-03-08 14:58:01,2.007s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:58:01,2018-03-08 14:58:02,0.913s,PASSED
+callTestCase,Chrome 64.0.3282.167,,2018-03-08 14:58:02,2018-03-08 14:58:20,18.498s,FAILED
