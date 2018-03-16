@@ -56,5 +56,5 @@ WebUI.sendKeys(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Das
 FilePath = WebUI.getAttribute(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 
     'value')
 
-WebUI.acceptAlert()
+WebUI.clickImage(findTestObject(null))
 
