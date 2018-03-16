@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the sub-menu of Profile item</description>
+   <name>CheckProfileItem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9a1f266-a792-4b33-89d0-836bb2b03ba0</testCaseGuid>
+</TestCaseEntity>

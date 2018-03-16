@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest" time="39" tests="4" failures="1" errors="0">
+   <testsuite name="SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest" tests="4" failures="1" errors="0" time="39" timestamp="2018-03-15 18:58:02" hostname="ADS - LP5-ADS-DSY.dsone.3ds.com" id="Test Suites/R2018x/Scenarios Test Suites/SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801"/>
+         <property name="logFiles" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801\\1521136720424.png, C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801\\1521136720730.png"/>
+         <property name="hostName" value="ADS - LP5-ADS-DSY.dsone.3ds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.237.173.17"/>
+         <property name="sessionId" value="5b7a11c160ec8912a22522a0a8238737"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NavigateURLR2018x" classname="Test Cases/NavigateURLR2018x" status="PASSED">
+         <system-out><![CDATA[2018-03-15 18:58:03 - [TEST_CASE][PASSED] - Test Cases/NavigateURLR2018x: Test Cases/NavigateURLR2018x
+
+2018-03-15 18:58:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-15 18:58:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-15 18:58:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://euw1-20qna10312-ifwe.3dx-staging.3ds.com/' successfully
+
+2018-03-15 18:58:06 - [MESSAGE][PASSED] - Navigate to 'https://euw1-20qna10312-ifwe.3dx-staging.3ds.com/' successfully
+
+2018-03-15 18:58:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-15 18:58:07 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginToPod" classname="Test Cases/LoginToPod" status="PASSED">
+         <system-out><![CDATA[2018-03-15 18:58:07 - [TEST_CASE][PASSED] - Test Cases/LoginToPod: Test Cases/LoginToPod
+
+2018-03-15 18:58:07 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-03-15 18:58:07 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-03-15 18:58:07 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-03-15 18:58:07 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-03-15 18:58:07 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-03-15 18:58:07 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-03-15 18:58:07 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-03-15 18:58:07 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-03-15 18:58:07 - [TEST_STEP][PASSED] - setText: Text 'Technoqa' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_username'
+
+2018-03-15 18:58:07 - [MESSAGE][PASSED] - Text 'Technoqa' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_username'
+
+2018-03-15 18:58:07 - [TEST_STEP][PASSED] - setText: Text 'Techno2016#' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_password'
+
+2018-03-15 18:58:07 - [MESSAGE][PASSED] - Text 'Techno2016#' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_password'
+
+2018-03-15 18:58:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is visible
+
+2018-03-15 18:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is visible
+
+2018-03-15 18:58:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is clicked on
+
+2018-03-15 18:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is clicked on
+
+2018-03-15 18:58:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE' is visible
+
+2018-03-15 18:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TopBarFunctions/TopBarCheck" classname="Test Cases/TopBarFunctions/TopBarCheck" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-03-15 18:58:09 - [TEST_CASE][FAILED] - Test Cases/TopBarFunctions/TopBarCheck: Test Cases/TopBarFunctions/TopBarCheck FAILED because (of) Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)
+
+2018-03-15 18:58:09 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)
+
+2018-03-15 18:58:40 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found
+[[ATTACHMENT|C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801\\1521136720424.png]]
+
+2018-03-15 18:58:41 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest\\20180315_185801\\1521136720730.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-15 18:58:09 - [TEST_CASE][FAILED] - Test Cases/TopBarFunctions/TopBarCheck: Test Cases/TopBarFunctions/TopBarCheck FAILED because (of) Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardFunctions/CreateNewDashboard" classname="Test Cases/DashboardFunctions/CreateNewDashboard" status="PASSED">
+         <system-out><![CDATA[2018-03-15 18:58:41 - [TEST_CASE][PASSED] - Test Cases/DashboardFunctions/CreateNewDashboard: Test Cases/DashboardFunctions/CreateNewDashboard
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/div_dashboard-actions-holder f' is clicked on
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/div_dashboard-actions-holder f' is clicked on
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/span_Add Dashboard...' is clicked on
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/span_Add Dashboard...' is clicked on
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - setText: Text 'Test JCN9 auto' is set on object 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Text 'Test JCN9 auto' is set on object 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/button_Create' is clicked on
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/button_Create' is clicked on
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2018-03-15 18:58:41 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/Page_Logout/div_profile-picture' is clicked on
+
+2018-03-15 18:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout/div_profile-picture' is clicked on
+
+2018-03-15 18:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/Page_Logout/span_Sign Out' is clicked on
+
+2018-03-15 18:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout/span_Sign Out' is clicked on
+
+2018-03-15 18:58:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-15 18:58:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 18:58:02 - [TEST_SUITE][FAILED] - SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest: Test Cases/TopBarFunctions/TopBarCheck FAILED because (of) Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 18:58:02 - [TEST_SUITE][FAILED] - SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest: Test Cases/TopBarFunctions/TopBarCheck FAILED because (of) Unable to verify object 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' is visible (Root cause: Web element with id: 'Object Repository/TopBar/Page_TopBar/div_dashboard-actions-holder f' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

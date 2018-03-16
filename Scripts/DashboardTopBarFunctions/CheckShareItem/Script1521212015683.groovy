@@ -19,12 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
+'click on Share item'
+WebUI.click(findTestObject('TopBar/Page_TopBar/Page_TopBarShare/div_share topbar-menu-item top'))
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
+'check dashboard item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarShare/span_Share Dashboard'), '')
 
-'Maximize the browser window'
-WebUI.maximizeWindow()
+'check tab item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarShare/span_Share Tab'), '')
 

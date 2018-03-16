@@ -18,13 +18,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-'Open Browser'
-WebUI.openBrowser('')
+'check dashboard down arrow'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/div_dashboard-actions-holder f'))
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
+'check search tags'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarSearch/div_btn_tag_nav'))
 
-'Maximize the browser window'
-WebUI.maximizeWindow()
+'check profile icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarProfile/div_profile-picture'))
+
+'check notification icon\r\n'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarNotification/div_notification topbar-menu-i'))
+
+'check add icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarAdd/div_add topbar-menu-item topba'))
+
+'check share icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarShare/div_share topbar-menu-item top'))
+
+'check content icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarContent/div_content topbar-menu-item t'))
+
+'check communities icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarCommunities/div_social topbar-menu-item to'))
+
+'check help icon'
+WebUI.verifyElementVisible(findTestObject('TopBar/Page_TopBar/Page_TopBarHelp/div_help topbar-menu-item topb'))
 

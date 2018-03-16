@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.186,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-15 19:01:05,2018-03-15 19:01:14,9.094s,PASSED
+,,,,,,
+Test Cases/NavigateURLR2018x,Chrome 64.0.3282.186,NavigateURL,2018-03-15 19:01:05,2018-03-15 19:01:09,4.296s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-15 19:01:05,2018-03-15 19:01:08,2.662s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-15 19:01:08,2018-03-15 19:01:08,0.305s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-15 19:01:08,2018-03-15 19:01:09,1.132s,PASSED
+,,,,,,
+Test Cases/LoginToPod,Chrome 64.0.3282.186,LoginToPod,2018-03-15 19:01:09,2018-03-15 19:01:11,2.159s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-15 19:01:09,2018-03-15 19:01:09,0.001s,NOT_RUN
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-15 19:01:09,2018-03-15 19:01:09,0.000s,NOT_RUN
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-15 19:01:09,2018-03-15 19:01:09,0.002s,NOT_RUN
+callTestCase,Chrome 64.0.3282.186,,2018-03-15 19:01:09,2018-03-15 19:01:09,0.001s,NOT_RUN
+setText,Chrome 64.0.3282.186,Enter user name,2018-03-15 19:01:09,2018-03-15 19:01:09,0.120s,PASSED
+setText,Chrome 64.0.3282.186,Enter password,2018-03-15 19:01:09,2018-03-15 19:01:10,0.106s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:10,2018-03-15 19:01:10,0.042s,PASSED
+click,Chrome 64.0.3282.186,Click on submit button,2018-03-15 19:01:10,2018-03-15 19:01:10,0.711s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:10,2018-03-15 19:01:11,1.060s,PASSED
+,,,,,,
+Test Cases/TopBarFunctions/TopBarCheck,Chrome 64.0.3282.186,,2018-03-15 19:01:11,2018-03-15 19:01:12,0.714s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,check dashboard down arrow,2018-03-15 19:01:11,2018-03-15 19:01:12,0.582s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.001s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.001s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.001s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-15 19:01:12,2018-03-15 19:01:12,0.000s,NOT_RUN
+,,,,,,
+Test Cases/DashboardFunctions/CreateNewDashboard,Chrome 64.0.3282.186,CreateNewDashboard,2018-03-15 19:01:12,2018-03-15 19:01:13,0.513s,PASSED
+click,Chrome 64.0.3282.186,Click on DropDown arrow of the topbar,2018-03-15 19:01:12,2018-03-15 19:01:12,0.088s,PASSED
+click,Chrome 64.0.3282.186,"Click on \""Add Dashboard\"" Button in the menu",2018-03-15 19:01:12,2018-03-15 19:01:12,0.113s,PASSED
+setText,Chrome 64.0.3282.186,Give the Dashboard neame,2018-03-15 19:01:12,2018-03-15 19:01:12,0.125s,PASSED
+click,Chrome 64.0.3282.186,Click on create button,2018-03-15 19:01:12,2018-03-15 19:01:13,0.066s,PASSED
+waitForPageLoad,Chrome 64.0.3282.186,,2018-03-15 19:01:13,2018-03-15 19:01:13,0.030s,PASSED
+,,,,,,
+Test Cases/Logout,Chrome 64.0.3282.186,Logout,2018-03-15 19:01:13,2018-03-15 19:01:14,1.140s,PASSED
+waitForPageLoad,Chrome 64.0.3282.186,,2018-03-15 19:01:13,2018-03-15 19:01:13,0.007s,PASSED
+click,Chrome 64.0.3282.186,Click on profile picture icon,2018-03-15 19:01:13,2018-03-15 19:01:13,0.092s,PASSED
+click,Chrome 64.0.3282.186,Click on Signout menu,2018-03-15 19:01:13,2018-03-15 19:01:13,0.266s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-15 19:01:13,2018-03-15 19:01:14,0.659s,PASSED

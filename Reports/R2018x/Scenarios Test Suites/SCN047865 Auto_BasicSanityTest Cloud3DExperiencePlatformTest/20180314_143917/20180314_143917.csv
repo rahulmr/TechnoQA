@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.186,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-14 14:39:18,2018-03-14 14:39:28,10.098s,FAILED
+,,,,,,
+Test Cases/NavigateURLR2018x,Chrome 64.0.3282.186,NavigateURL,2018-03-14 14:39:18,2018-03-14 14:39:23,4.474s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-14 14:39:19,2018-03-14 14:39:21,2.746s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-14 14:39:21,2018-03-14 14:39:22,0.319s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-14 14:39:22,2018-03-14 14:39:23,1.142s,PASSED
+,,,,,,
+Test Cases/LoginToPod,Chrome 64.0.3282.186,LoginToPod,2018-03-14 14:39:23,2018-03-14 14:39:25,2.376s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-14 14:39:23,2018-03-14 14:39:23,0.001s,NOT_RUN
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-14 14:39:23,2018-03-14 14:39:23,0.001s,NOT_RUN
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-14 14:39:23,2018-03-14 14:39:23,0.001s,NOT_RUN
+callTestCase,Chrome 64.0.3282.186,,2018-03-14 14:39:23,2018-03-14 14:39:23,0.000s,NOT_RUN
+setText,Chrome 64.0.3282.186,Enter user name,2018-03-14 14:39:23,2018-03-14 14:39:23,0.142s,PASSED
+setText,Chrome 64.0.3282.186,Enter password,2018-03-14 14:39:23,2018-03-14 14:39:23,0.109s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-14 14:39:23,2018-03-14 14:39:23,0.044s,PASSED
+click,Chrome 64.0.3282.186,Click on submit button,2018-03-14 14:39:23,2018-03-14 14:39:24,0.763s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-14 14:39:24,2018-03-14 14:39:25,1.127s,PASSED
+,,,,,,
+Test Cases/DashboardFunctions/CreateNewDashboard,Chrome 64.0.3282.186,CreateNewDashboard,2018-03-14 14:39:25,2018-03-14 14:39:27,1.746s,FAILED
+click,Chrome 64.0.3282.186,Click on DropDown arrow of the topbar,2018-03-14 14:39:25,2018-03-14 14:39:26,0.694s,PASSED
+click,Chrome 64.0.3282.186,"Click on \""Add Dashboard\"" Button in the menu",2018-03-14 14:39:26,2018-03-14 14:39:26,0.143s,PASSED
+setText,Chrome 64.0.3282.186,Give the Dashboard neame,2018-03-14 14:39:26,2018-03-14 14:39:26,0.260s,PASSED
+click,Chrome 64.0.3282.186,Click on create button,2018-03-14 14:39:26,2018-03-14 14:39:27,0.480s,FAILED
+,,,,,,
+Test Cases/Logout,Chrome 64.0.3282.186,Logout,2018-03-14 14:39:27,2018-03-14 14:39:27,0.573s,FAILED
+waitForPageLoad,Chrome 64.0.3282.186,,2018-03-14 14:39:27,2018-03-14 14:39:27,0.044s,PASSED
+click,Chrome 64.0.3282.186,Click on profile picture icon,2018-03-14 14:39:27,2018-03-14 14:39:27,0.409s,FAILED

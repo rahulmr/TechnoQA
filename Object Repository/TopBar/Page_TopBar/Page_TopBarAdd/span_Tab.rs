@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tab</name>
+   <tag></tag>
+   <elementGuidId>5519c4e7-a6e5-41bb-b198-3e202ef930d2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;chrome chrome64 win32 no-touch&quot;]/body[1]/div[@class=&quot;topbar-menu-dd responsive-dropdown-menu add&quot;]/div[@class=&quot;scrollable-dropdown-menu scrollable-dropdown-menu-root dropdown-menu dropdown-menu-root dropdown-menu dropdown-menu-root dropdown dropdown-root responsive-dropdown-menu-root active current&quot;]/div[@class=&quot;no-native-scrollbars  scroller-content&quot;]/ul[@class=&quot;dropdown-menu-wrap&quot;]/li[@id=&quot;180f6aed-5259-4c65-9350-34ab972953ea/c98&quot;]/div[@id=&quot;180f6aed-5259-4c65-9350-34ab972953ea/c98&quot;]/span[@class=&quot;item-text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

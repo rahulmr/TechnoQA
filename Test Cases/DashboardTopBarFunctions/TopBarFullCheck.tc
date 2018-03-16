@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check content of topbar items</description>
+   <name>TopBarFullCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b43e1053-4002-4412-a5a7-9046c5da5f18</testCaseGuid>
+</TestCaseEntity>

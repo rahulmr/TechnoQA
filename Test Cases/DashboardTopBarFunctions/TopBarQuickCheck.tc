@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check that items of topbar are visible</description>
+   <name>TopBarQuickCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bffec51e-9d1e-4a77-b514-7e88eb587ec8</testCaseGuid>
+</TestCaseEntity>

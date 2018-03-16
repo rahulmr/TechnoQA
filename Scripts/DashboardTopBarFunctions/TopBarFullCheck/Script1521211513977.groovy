@@ -19,12 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
+'checks the Profile sub-menu'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckProfileItem'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
+'checks the Notification center'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckNotificationItem'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Maximize the browser window'
-WebUI.maximizeWindow()
+'checks the Add sub-menu'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckAdddItem'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'checks the Share sub-menu'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckShareItem'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'checks the myFiles frame'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckContentItem'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'checks the 3DSwym frame'
+WebUI.callTestCase(findTestCase('DashboardTopBarFunctions/CheckCommunitiesItem'), [:], FailureHandling.STOP_ON_FAILURE)
 

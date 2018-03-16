@@ -19,12 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
-
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
-
-'Maximize the browser window'
-WebUI.maximizeWindow()
-

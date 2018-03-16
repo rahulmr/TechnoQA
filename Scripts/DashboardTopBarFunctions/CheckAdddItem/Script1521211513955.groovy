@@ -19,7 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'click on Add item'
+WebUI.click(findTestObject('TopBar/Page_TopBar/Page_TopBarAdd/div_add topbar-menu-item topba'))
 
-WebUI.acceptAlert()
+'check dashboard item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarAdd/span_Dashboard'), '')
+
+'check tab item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarAdd/span_Tab'), '')
 

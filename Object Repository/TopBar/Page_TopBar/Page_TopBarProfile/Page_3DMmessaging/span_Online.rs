@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Online</name>
+   <tag></tag>
+   <elementGuidId>30065e05-83b0-4858-bb1d-eef5121eb0ea</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Online</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;chrome chrome64 win32 no-touch&quot;]/body[1]/div[@class=&quot;topbar-menu-dd responsive-dropdown-menu profile&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-root responsive  scroller scroller-root bottom-left&quot;]/div[@class=&quot;no-native-scrollbars  scroller-content&quot;]/ul[@class=&quot;dropdown-menu-wrap&quot;]/li[@id=&quot;99fdec98-0749-4572-97a7-b182601c1e88/c128&quot;]/div[@id=&quot;99fdec98-0749-4572-97a7-b182601c1e88/c128&quot;]/span[@class=&quot;item-text&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

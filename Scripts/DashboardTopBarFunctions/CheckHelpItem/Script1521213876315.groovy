@@ -19,12 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
+'click on Help item'
+WebUI.click(findTestObject('TopBar/Page_TopBar/Page_TopBarHelp/div_help topbar-menu-item topb'))
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
+'check Get Started item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarHelp/span_Get Started'), '')
 
-'Maximize the browser window'
-WebUI.maximizeWindow()
+'check Support Community item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarHelp/span_Support Community'), '')
+
+'check About 3DEXp item'
+WebUI.verifyElementText(findTestObject('TopBar/Page_TopBar/Page_TopBarHelp/span_About 3DEXPERIENCE Platfo'), '')
 

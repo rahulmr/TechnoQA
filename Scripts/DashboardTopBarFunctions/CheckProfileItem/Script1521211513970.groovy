@@ -19,12 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
+'click on profile icon'
+WebUI.click(findTestObject('TopBar/Page_TopBar/Page_TopBarProfile/div_profile-picture'))
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
-
-'Maximize the browser window'
-WebUI.maximizeWindow()
+WebUI.mouseOver(findTestObject(null))
 

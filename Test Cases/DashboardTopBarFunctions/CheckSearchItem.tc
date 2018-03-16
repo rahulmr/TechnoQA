@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Search sub-menu</description>
+   <name>CheckSearchItem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cab211d7-b353-4936-b1c8-e207ccf14298</testCaseGuid>
+</TestCaseEntity>
