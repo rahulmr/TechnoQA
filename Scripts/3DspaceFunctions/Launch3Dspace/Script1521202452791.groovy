@@ -48,5 +48,7 @@ WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_Cr
 
 WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'))
 
-WebUI.waitForPageLoad(30)
+WebUI.waitForPageLoad(20)
+
+WebUI.acceptAlert()
 

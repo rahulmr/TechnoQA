@@ -50,7 +50,11 @@ WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashbo
 
 WebUI.uploadFile(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 'C:\\Users\\jcn9\\git\\TechnoQA\\Data Files\\city_experience.json')
 
-
 WebUI.sendKeys(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 'C:\\Users\\jcn9\\git\\TechnoQA\\Data Files\\city_experience.json')
+
 'Capturing the file name after upload and storing it in a variable'
-FilePath = WebUI.getAttribute(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 'value')
+FilePath = WebUI.getAttribute(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 
+    'value')
+
+WebUI.acceptAlert()
+
