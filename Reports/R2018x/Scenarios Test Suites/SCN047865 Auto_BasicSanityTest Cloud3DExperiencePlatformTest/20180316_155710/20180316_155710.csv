@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Firefox 52.0,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-16 15:57:12,2018-03-16 15:57:55,42.660s,PASSED
+,,,,,,
+Test Cases/NavigateURLR2018x,Firefox 52.0,NavigateURL,2018-03-16 15:57:13,2018-03-16 15:57:23,10.488s,PASSED
+openBrowser,Firefox 52.0,Open Browser,2018-03-16 15:57:13,2018-03-16 15:57:22,8.788s,PASSED
+navigateToUrl,Firefox 52.0,Enter POD URL in the browser,2018-03-16 15:57:22,2018-03-16 15:57:22,0.121s,PASSED
+maximizeWindow,Firefox 52.0,Maximize the browser window,2018-03-16 15:57:22,2018-03-16 15:57:23,1.088s,PASSED
+,,,,,,
+Test Cases/LoginToPod,Firefox 52.0,LoginToPod,2018-03-16 15:57:23,2018-03-16 15:57:52,29.023s,PASSED
+openBrowser,Firefox 52.0,Open Browser,2018-03-16 15:57:24,2018-03-16 15:57:24,0.002s,NOT_RUN
+navigateToUrl,Firefox 52.0,Enter POD URL in the browser,2018-03-16 15:57:24,2018-03-16 15:57:24,0.001s,NOT_RUN
+maximizeWindow,Firefox 52.0,Maximize the browser window,2018-03-16 15:57:24,2018-03-16 15:57:24,0.002s,NOT_RUN
+callTestCase,Firefox 52.0,,2018-03-16 15:57:24,2018-03-16 15:57:24,0.001s,NOT_RUN
+setText,Firefox 52.0,Enter user name,2018-03-16 15:57:24,2018-03-16 15:57:24,0.869s,PASSED
+setText,Firefox 52.0,Enter password,2018-03-16 15:57:24,2018-03-16 15:57:25,0.102s,PASSED
+verifyElementVisible,Firefox 52.0,,2018-03-16 15:57:25,2018-03-16 15:57:25,0.032s,PASSED
+click,Firefox 52.0,Click on submit button,2018-03-16 15:57:25,2018-03-16 15:57:26,0.964s,PASSED
+verifyElementVisible,Firefox 52.0,,2018-03-16 15:57:26,2018-03-16 15:57:32,5.986s,PASSED
+click,Firefox 52.0,,2018-03-16 15:57:32,2018-03-16 15:57:42,10.446s,PASSED
+click,Firefox 52.0,,2018-03-16 15:57:42,2018-03-16 15:57:52,10.444s,PASSED
+,,,,,,
+Test Cases/DashboardFunctions/CreateNewDashboard,Firefox 52.0,CreateNewDashboard,2018-03-16 15:57:52,2018-03-16 15:57:53,0.653s,PASSED
+click,Firefox 52.0,Click on DropDown arrow of the topbar,2018-03-16 15:57:53,2018-03-16 15:57:53,0.179s,PASSED
+click,Firefox 52.0,"Click on \""Add Dashboard\"" Button in the menu",2018-03-16 15:57:53,2018-03-16 15:57:53,0.138s,PASSED
+setText,Firefox 52.0,Give the Dashboard neame,2018-03-16 15:57:53,2018-03-16 15:57:53,0.099s,PASSED
+click,Firefox 52.0,Click on create button,2018-03-16 15:57:53,2018-03-16 15:57:53,0.080s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-03-16 15:57:53,2018-03-16 15:57:53,0.044s,PASSED
+,,,,,,
+Test Cases/Logout,Firefox 52.0,Logout,2018-03-16 15:57:53,2018-03-16 15:57:55,1.934s,PASSED
+waitForPageLoad,Firefox 52.0,,2018-03-16 15:57:53,2018-03-16 15:57:53,0.062s,PASSED
+click,Firefox 52.0,Click on profile picture icon,2018-03-16 15:57:53,2018-03-16 15:57:54,0.238s,PASSED
+click,Firefox 52.0,Click on Signout menu,2018-03-16 15:57:54,2018-03-16 15:57:54,0.695s,PASSED
+closeBrowser,Firefox 52.0,,2018-03-16 15:57:54,2018-03-16 15:57:55,0.748s,PASSED

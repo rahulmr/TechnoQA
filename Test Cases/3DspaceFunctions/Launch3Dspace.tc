@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Launch3Dspace</description>
+   <name>Launch3Dspace</name>
+   <tag>Launch3Dspace</tag>
+   <comment></comment>
+   <testCaseGuid>dfcf15cf-bd13-4702-9d75-f39ebacda196</testCaseGuid>
+</TestCaseEntity>

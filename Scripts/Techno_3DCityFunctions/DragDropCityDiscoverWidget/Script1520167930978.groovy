@@ -49,7 +49,7 @@ WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.dragAndDropToObject(findTestObject('Techno_3Dcity_DDCityReferential/Page_Test JCN9 auto/li_City Discover'), findTestObject(
+WebUI.dragAndDropToObject(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityDiscoverWidget/li_City Discover'), findTestObject(
         'Techno_3Dcity_DDCityReferential/Page_Test JCN9 auto/div_wp-tabview-panel'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), FailureHandling.CONTINUE_ON_FAILURE)

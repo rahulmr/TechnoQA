@@ -32,15 +32,19 @@ not_run: WebUI.maximizeWindow()
 not_run: WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Enter user name'
-WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_username'), 'Technoqa')
+WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_username'), 'Technoqa', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Enter password'
-WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_password'), 'Techno2016#')
+WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_password'), 'Techno2016#', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'))
+WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Click on submit button'
-WebUI.click(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'))
+WebUI.click(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('LoginToPod/CloseTheWindow/Page_CloseWindow/label_Do not show at startup'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('LoginToPod/CloseTheWindow/Page_CloseWindow/span_ds-coachmark-close'), FailureHandling.OPTIONAL)
 

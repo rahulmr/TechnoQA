@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>UploadDataIn3Dspace</description>
+   <name>UploadDataIn3Dspace</name>
+   <tag>UploadDataIn3Dspace</tag>
+   <comment></comment>
+   <testCaseGuid>b9a6b9d3-0f3f-4cb5-b722-7d9cf10ab049</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,Chrome 64.0.3282.186,SCN047865 Auto_BasicSanityTest Cloud3DExperiencePlatformTest,2018-03-14 15:15:59,2018-03-14 15:16:08,9.270s,PASSED
+,,,,,,
+Test Cases/NavigateURLR2018x,Chrome 64.0.3282.186,NavigateURL,2018-03-14 15:15:59,2018-03-14 15:16:05,5.830s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-14 15:15:59,2018-03-14 15:16:03,4.145s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-14 15:16:03,2018-03-14 15:16:03,0.277s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-14 15:16:03,2018-03-14 15:16:05,1.133s,PASSED
+,,,,,,
+Test Cases/LoginToPod,Chrome 64.0.3282.186,LoginToPod,2018-03-14 15:16:05,2018-03-14 15:16:07,2.479s,PASSED
+openBrowser,Chrome 64.0.3282.186,Open Browser,2018-03-14 15:16:05,2018-03-14 15:16:05,0.002s,NOT_RUN
+navigateToUrl,Chrome 64.0.3282.186,Enter POD URL in the browser,2018-03-14 15:16:05,2018-03-14 15:16:05,0.001s,NOT_RUN
+maximizeWindow,Chrome 64.0.3282.186,Maximize the browser window,2018-03-14 15:16:05,2018-03-14 15:16:05,0.001s,NOT_RUN
+callTestCase,Chrome 64.0.3282.186,,2018-03-14 15:16:05,2018-03-14 15:16:05,0.001s,NOT_RUN
+setText,Chrome 64.0.3282.186,Enter user name,2018-03-14 15:16:05,2018-03-14 15:16:05,0.143s,PASSED
+setText,Chrome 64.0.3282.186,Enter password,2018-03-14 15:16:05,2018-03-14 15:16:05,0.101s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-14 15:16:05,2018-03-14 15:16:05,0.041s,PASSED
+click,Chrome 64.0.3282.186,Click on submit button,2018-03-14 15:16:05,2018-03-14 15:16:06,0.557s,PASSED
+verifyElementVisible,Chrome 64.0.3282.186,,2018-03-14 15:16:06,2018-03-14 15:16:07,1.146s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-14 15:16:07,2018-03-14 15:16:07,0.343s,PASSED

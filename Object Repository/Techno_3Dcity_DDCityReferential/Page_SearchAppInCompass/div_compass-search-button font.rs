@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;my-apps-ct&quot;)/div[@class=&quot;my-apps-panel items-per-line-5 west&quot;]/div[@class=&quot;compass-search&quot;]/div[@class=&quot;compass-search-button fonticon fonticon-search&quot;][count(. | //div[@class = 'compass-search-button fonticon fonticon-search']) = count(//div[@class = 'compass-search-button fonticon fonticon-search'])]</value>
+         <value>//div[@class = 'compass-search-button fonticon fonticon-search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>compass-search-button fonticon fonticon-search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
