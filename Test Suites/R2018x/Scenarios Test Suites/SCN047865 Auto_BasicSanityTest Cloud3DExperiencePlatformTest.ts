@@ -30,6 +30,12 @@
       <testCaseId>Test Cases/DashboardFunctions/CreateNewDashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>576df423-bbb4-4d50-9b30-dd0c00ff3059</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TabFunctions/CreateNewTab</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3aa89a2e-9796-4741-a519-538deb2af8c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

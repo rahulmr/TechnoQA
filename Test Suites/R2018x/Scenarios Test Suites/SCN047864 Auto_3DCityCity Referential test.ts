@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>815a611e-c2ef-4a17-a4e8-e947f7977fd5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TabFunctions/CreateNewTab</testCaseId>
    </testCaseLink>
    <testCaseLink>
