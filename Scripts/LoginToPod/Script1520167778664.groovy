@@ -20,17 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Open Browser'
-not_run: WebUI.openBrowser('')
-
-'Enter POD URL in the browser'
-not_run: WebUI.navigateToUrl('https://euw1-20swi10301-iam.3dx-staging.3ds.com/cas/login?serverId=FRONT_0&service=https%3A//euw1-20swi10301-ifwe.3dx-staging.3ds.com/')
-
-'Maximize the browser window'
-not_run: WebUI.maximizeWindow()
-
-not_run: WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Enter user name'
 WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_username'), 'Technoqa', FailureHandling.CONTINUE_ON_FAILURE)
 
