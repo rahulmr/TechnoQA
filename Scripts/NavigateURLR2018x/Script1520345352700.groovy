@@ -26,5 +26,5 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://euw1-20qna10314-ifwe.3dx-staging.3ds.com/')
 
 'Maximize the browser window'
-WebUI.maximizeWindow()
+WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 

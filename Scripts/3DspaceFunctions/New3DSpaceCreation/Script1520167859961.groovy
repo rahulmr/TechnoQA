@@ -18,4 +18,68 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LoginToPod'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CompassFunctions/SmallCompassNorth'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.waitForPageLoad(20, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_compass-search-button font'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/input_compass-search-text form'), 
+    '3DSpace', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+    30, FailureHandling.OPTIONAL)
+
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), 
+    FailureHandling.OPTIONAL)
+
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), 
+    FailureHandling.OPTIONAL)
+
+not_run: WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
+
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 
+    30, FailureHandling.OPTIONAL)
+
+not_run: WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/div_3DSpace'), 
+    20)
+
+not_run: WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/div_3DSpace'))
+
+not_run: WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'), 
+    20)
+
+not_run: WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'))
+
+WebUI.callTestCase(findTestCase('3DspaceFunctions/Launch3Dspace'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/div_breadcrumb__elem-icon font'))
+
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_New Collaborative Space'))
+
+WebUI.setText(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/input_newContainerName'), ' Techno2018')
+
+WebUI.setText(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/input_description'), 'technoqa technoqa')
+
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/button_Create'))
+
+WebUI.waitForElementVisible(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_fonticon fonticon-layout'), 
+    30)
+
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_fonticon fonticon-layout'))
+
+WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_fonticon fonticon-th-list'), 
+    30)
+
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_fonticon fonticon-th-list'))
 

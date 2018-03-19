@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SCN047864 Auto_3DCityCity Referential test,Chrome 64.0.3282.186,SCN047864 Auto_3DCityCity Referential test,2018-03-14 14:06:05,2018-03-14 14:06:12,7.489s,INCOMPLETE
+,,,,,,
+Test Cases/Scenarios/SCN047864 Auto_3DCityCity Referential test,Chrome 64.0.3282.186,SCN047864  Auto_3DCityCity Referential test,2018-03-14 14:06:05,2018-03-14 14:06:12,7.121s,INCOMPLETE
+callTestCase,Chrome 64.0.3282.186,,2018-03-14 14:06:05,2018-03-14 14:06:12,6.573s,PASSED
+callTestCase,Chrome 64.0.3282.186,,2018-03-14 14:06:12,2018-03-14 14:06:12,0.317s,INCOMPLETE
