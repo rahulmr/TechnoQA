@@ -20,10 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('LoginToPod'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForPageLoad(30)
 
 'Click on View tab in the action bar'
@@ -50,10 +46,10 @@ WebUI.rightClick(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferen
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/li_Show labels'))
 
 'click on city referential icon inside view tab'
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/div_City Referential'))
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/div_City Referential'), 
+    FailureHandling.OPTIONAL)
 
 'Verifing that City referential panel is open'
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/h5_Available City Datasets'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/h5_Available City Datasets'), 
+    FailureHandling.OPTIONAL)
 

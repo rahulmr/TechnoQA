@@ -50,5 +50,3 @@ WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpa
 
 WebUI.waitForPageLoad(20)
 
-WebUI.acceptAlert()
-

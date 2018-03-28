@@ -19,14 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('LoginToPod'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('DashboardFunctions/CreateNewDashboard'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('CompassFunctions/SmallCompassWest'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_compass-search-button font'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -37,26 +29,20 @@ WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCo
 WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
     30, FailureHandling.OPTIONAL)
 
-not_run: WebUI.callTestCase(findTestCase('CompassFunctions/SearchAppInCompass'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 30, FailureHandling.OPTIONAL)
 
 WebUI.dragAndDropToObject(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityDiscoverWidget/li_City Discover'), findTestObject(
-        'Techno_3Dcity_DDCityReferential/Page_Test JCN9 auto/div_wp-tabview-panel'), FailureHandling.CONTINUE_ON_FAILURE)
+        'Techno_3Dcity_DDCityReferential/Page_CityDiscoverWidget/div_wp-tabview-panel'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(30, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.closeBrowser()
 
