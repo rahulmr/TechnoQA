@@ -3,17 +3,21 @@
    <description></description>
    <name>TechnoQAGit</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>07b30714-2fca-48b9-b809-3bc67caf6eb9</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
    <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Test Cases/3DspaceFunctions</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/3DSpace</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/3DSpace/CreateNewCollabSpace</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/3DSpace/UploadFileInCollabSpace</recentExpandedTreeEntityIds>
-   <recentExpandedTreeEntityIds>Object Repository/3DSpace/UploadFileInCollabSpace/Page_UploadData</recentExpandedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Test Cases/3DspaceFunctions/New3DSpaceCreation</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Object Repository/3DSpace/UploadFileInCollabSpace/Page_UploadData/a_technoqaJid999</recentOpenedTreeEntityIds>
-   <recentOpenedTreeEntityIds>Object Repository/3DSpace/UploadFileInCollabSpace/Page_UploadData/span_fonticon fonticon-layout</recentOpenedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites/R2018x</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites/R2018x/Scenarios Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites/R2018x/ScenarioTestCollection</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/R2018x</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/R2018x/Scenarios Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/R2018x/Scenarios Test Suites/BasicSanityTest</recentExpandedTreeEntityIds>
 </Project>

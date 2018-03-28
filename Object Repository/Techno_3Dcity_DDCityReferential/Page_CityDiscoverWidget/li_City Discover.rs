@@ -4,6 +4,12 @@
    <name>li_City Discover</name>
    <tag></tag>
    <elementGuidId>b22dbb62-7e95-4b82-af85-4e4cbcf26446</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'exp-item drag-app widget-item' and @data-title = 'City Discover' and (text() = 'City Discover' or . = 'City Discover')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>https://dsqal038-euw1-20swi10301-globe.3dx-staging.3ds.com:443/globe/webapps/UrbanWidget/City3Dplay.html</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-title</name>
       <type>Main</type>
