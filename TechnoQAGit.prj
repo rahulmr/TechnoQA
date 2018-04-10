@@ -9,8 +9,6 @@
    </integratedEntity>
    <UUID>07b30714-2fca-48b9-b809-3bc67caf6eb9</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
-<<<<<<< HEAD
-=======
    <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Test Cases/3DSearch</recentExpandedTreeEntityIds>
    <recentExpandedTreeEntityIds>Test Cases/Techno_3DCityFunctions</recentExpandedTreeEntityIds>
@@ -27,5 +25,4 @@
    <recentOpenedTreeEntityIds>Test Suites/R2018x/Scenarios Test Suites/BasicSanityTest</recentOpenedTreeEntityIds>
    <recentOpenedTreeEntityIds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
    <recentOpenedTreeEntityIds>Test Cases/NavigateURLR2018x</recentOpenedTreeEntityIds>
->>>>>>> branch 'master' of https://github.com/TechnoQA/TechnoQA.git
 </Project>
