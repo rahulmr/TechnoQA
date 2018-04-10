@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CityReferential3DSwym post data to 3DSwym</description>
+   <name>CityReferential3DSwym</name>
+   <tag>CityReferential3DSwym Share data to 3DSwym</tag>
+   <comment></comment>
+   <testCaseGuid>313edae8-8f04-48af-843f-d05ec03f6530</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ok</name>
+   <tag></tag>
+   <elementGuidId>d0624070-3f11-47d0-a226-6f7dc9391f65</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wux-controls-button wux-controls-abstract wux-ui-style-normal wux-ui-state-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-rec-id</name>
+      <type>Main</type>
+      <value>null_Ok</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ok</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;35c65017-3dbb-49c5-8930-0cb2381b4c4c&quot;)/div[@class=&quot;wux-windows-window-mask-content&quot;]/div[@class=&quot;wux-windows-window-maincontent wux-element-contentbox&quot;]/div[@class=&quot;wux-windows-dialog-footer&quot;]/div[@class=&quot;wux-windows-dialog-buttons&quot;]/div[@class=&quot;wux-controls-button wux-controls-abstract wux-ui-style-normal wux-ui-state-primary&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Techno_3Dcity_DDCityReferential/DataTest/swymInput/Page_Test JCN9 auto/iframe_frame-8tDpnh4A2GPM93U_T</value>
+   </webElementProperties>
+</WebElementEntity>

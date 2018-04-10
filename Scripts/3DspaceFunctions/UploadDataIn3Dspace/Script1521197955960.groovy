@@ -19,42 +19,38 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('NavigateURLR2018x'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('LoginToPod'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CompassFunctions/SmallCompassNorth'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('3DspaceFunctions/Launch3Dspace'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.refresh()
 
 WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_DS - DSQAL111 euw1'), 
-    30)
+    10)
 
-WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_DS - DSQAL111 euw1'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_DS - DSQAL111 euw1'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/li_wux-layouts-treeview-expand'), 
-    20)
+    10)
 
+'Click on expand tree icon in 3dspace '
 WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/li_wux-layouts-treeview-expand'))
 
-WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/li_Techno2018'), 20)
+WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/li_Techno2018'), 10)
 
+'Click on 3dspace which is created'
 WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/li_Techno2018'))
 
-WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/div_breadcrumb__elem-icon font'), 
-    20)
+WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Upload/Page_My First Dashboard/a_Techno2018'))
 
-WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/div_breadcrumb__elem-icon font'))
+WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Upload/Page_My First Dashboard/a_Techno2018'))
 
-WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'))
+WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Upload/Page_My First Dashboard/div_breadcrumb__elem-icon font'), 
+    30, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 'C:\\Users\\jcn9\\git\\TechnoQA\\Data Files\\city_experience.json')
+'Click on dropdown arrow on selected 3DSpace'
+WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Upload/Page_My First Dashboard/div_breadcrumb__elem-icon font'))
 
-WebUI.sendKeys(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 'C:\\Users\\jcn9\\git\\TechnoQA\\Data Files\\city_experience.json')
+'Upload data in 3DSpace'
+CustomKeywords.'upload.uploadFiles.uploadFile'(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 
+    'C:\\Users\\jcn9\\git\\TechnoQA\\Data Files\\rennes2015_widget.json')
 
-'Capturing the file name after upload and storing it in a variable'
-FilePath = WebUI.getAttribute(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 
-    'value')
-
-WebUI.clickImage(findTestObject(null))
+Thread.sleep(2000)
 

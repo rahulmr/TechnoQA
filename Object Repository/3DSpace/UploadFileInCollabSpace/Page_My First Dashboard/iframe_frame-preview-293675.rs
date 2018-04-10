@@ -4,6 +4,12 @@
    <name>iframe_frame-preview-293675</name>
    <tag></tag>
    <elementGuidId>ad6f62b0-6d3c-4226-8de8-76f5fd47f9b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@frameborder = '0' and @width = '100%' and @scrolling = 'auto' and @height = '100%']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>frame-preview-293675</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>frameborder</name>
       <type>Main</type>

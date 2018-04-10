@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>canvas</name>
+   <tag></tag>
+   <elementGuidId>048ae7de-3fb1-4b2c-899c-6b10c3c6d8c3</elementGuidId>
+   <imagePath>Object Repository/SmallCompass/Page_SmallCompass/Compass/Canvas.jpg</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ref_element = 'Object Repository/Techno_3Dcity_DDCityReferential/OpenDatainCityReferential/Page_Test JCN9 auto/iframe_frame-8t6esv4A2GX9H1Ex4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>canvas</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1898</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>798</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;xCityViewer&quot;)/canvas[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Techno_3Dcity_DDCityReferential/OpenDatainCityReferential/Page_Test JCN9 auto/iframe_frame-8t6esv4A2GX9H1Ex4</value>
+   </webElementProperties>
+</WebElementEntity>

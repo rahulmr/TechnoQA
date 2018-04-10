@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Techno2018</name>
+   <tag></tag>
+   <elementGuidId>80310980-3153-46f1-a563-cf24d875362d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>breadcrumb__elem-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/drives/DSQAL095/mimetype/collaborative%20Space/inode/Techno2018/content</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Techno2018</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;uwa-framed chrome chrome65 win32&quot;]/body[1]/div[@class=&quot;module moduleUwa&quot;]/div[@class=&quot;moduleWrapper&quot;]/div[@class=&quot;moduleContent chrome chrome65 win32 no-touch environment-frame&quot;]/div[@class=&quot;w3ddrive panel-slider&quot;]/div[@class=&quot;panel right active&quot;]/div[@class=&quot;inode-panel w3ddrive&quot;]/div[@class=&quot;top-bar inode-panel__top-bar&quot;]/div[@class=&quot;breadcrumb&quot;]/div[@class=&quot;breadcrumb__elem&quot;]/a[@class=&quot;breadcrumb__elem-title&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/3DSpace/UploadFileInCollabSpace/Upload/Page_My First Dashboard/iframe_frame-preview-b54cad</value>
+   </webElementProperties>
+</WebElementEntity>

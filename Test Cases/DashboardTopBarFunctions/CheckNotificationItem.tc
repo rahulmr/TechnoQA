@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>check presence of notification center frame after click on notification item</description>
-   <name>CheckNotificationItem</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b800cff9-b3d0-44f0-8f34-403618f86c86</testCaseGuid>
-</TestCaseEntity>

@@ -5,4 +5,18 @@
    <tag>LoginToPod</tag>
    <comment></comment>
    <testCaseGuid>c95fe764-4f85-473e-aa45-df20cd2f58d3</testCaseGuid>
+   <variable>
+      <defaultValue>'technoqa'</defaultValue>
+      <description></description>
+      <id>da899721-cfd1-4048-84af-ffc8a1b1a375</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Techno2016#'</defaultValue>
+      <description></description>
+      <id>c2a10df5-a69c-4e8b-9f24-c43e8fdb10cd</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

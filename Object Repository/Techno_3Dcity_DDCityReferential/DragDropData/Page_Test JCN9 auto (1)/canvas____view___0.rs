@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>canvas____view___0</name>
+   <tag></tag>
+   <elementGuidId>b2e47335-73f1-449f-add9-c5d58c593d61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;___view___0&quot;)[count(. | //canvas[@id = '___view___0' and @ref_element = 'Object Repository/Techno_3Dcity_DDCityReferential/DragDropData/Page_Test JCN9 auto (1)/iframe_frame-8tDpnh4A2GPM93U_T']) = count(//canvas[@id = '___view___0' and @ref_element = 'Object Repository/Techno_3Dcity_DDCityReferential/DragDropData/Page_Test JCN9 auto (1)/iframe_frame-8tDpnh4A2GPM93U_T'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>canvas</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>___view___0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>748</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>645</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;___view___0&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Techno_3Dcity_DDCityReferential/DragDropData/Page_Test JCN9 auto (1)/iframe_frame-8tDpnh4A2GPM93U_T</value>
+   </webElementProperties>
+</WebElementEntity>

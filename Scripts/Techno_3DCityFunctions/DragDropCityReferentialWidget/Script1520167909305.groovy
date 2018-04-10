@@ -27,23 +27,28 @@ WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInComp
 WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/input_compass-search-text form'), 
     'city Referential', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
-    30, FailureHandling.OPTIONAL)
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+    10, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
+WebUI.waitForPageLoad(10, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 30, FailureHandling.OPTIONAL)
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 
+    20, FailureHandling.OPTIONAL)
 
 WebUI.dragAndDropToObject(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/li_City Referential'), 
     findTestObject('Techno_3Dcity_DDCityReferential/Page_CityDiscoverWidget/div_wp-tabview-panel'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(30, FailureHandling.CONTINUE_ON_FAILURE)
 
