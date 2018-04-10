@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCo
 WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
     30, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), FailureHandling.OPTIONAL)
 
@@ -44,9 +44,9 @@ WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_Cr
 WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/div_3DSpace'))
 
 WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'), 
-    20)
+    20, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'))
+WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_ClickOnCollabSpace'), FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(20)
 

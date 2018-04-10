@@ -4,6 +4,7 @@
    <name>SCN048023 Auto_3DCity Discover widget test</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-04-10T11:30:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -31,7 +32,7 @@
    <testCaseLink>
       <guid>eeb45412-6bde-462f-9e3e-fb261dcf5463</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TabFunctions/CreateNewTab</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -45,6 +46,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Techno_3DCityFunctions/DragDropCityDiscoverWidget</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c24b8d25-1b22-49d6-b69c-538e59c0c792</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Techno_3DCityFunctions/TestCityDiscoverUI</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>226a1847-681b-4b4b-88e3-b4fb4906034f</guid>

@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialU
 
 'click on city referential icon inside view tab'
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityDiscoverUI/Page_CityDiscoverUI/div_City Referential'), 
-    FailureHandling.OPTIONAL)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 'Verifing that City referential panel is open'
 WebUI.waitForElementPresent(findTestObject('Techno_3Dcity_DDCityReferential/TestCityDiscoverUI/Page_CityDiscoverUI/h5_Available City Datasets'), 
