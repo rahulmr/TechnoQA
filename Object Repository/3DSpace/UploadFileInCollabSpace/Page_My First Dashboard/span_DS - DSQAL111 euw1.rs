@@ -4,6 +4,12 @@
    <name>span_DS - DSQAL111 euw1</name>
    <tag></tag>
    <elementGuidId>51d949ce-c3d5-4757-ae0e-04d20a6347ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'euw1') or contains(., 'euw1')) and @ref_element = 'Object Repository/3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/iframe_frame-preview-293675']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>euw1 </value>
+      <value>euw1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

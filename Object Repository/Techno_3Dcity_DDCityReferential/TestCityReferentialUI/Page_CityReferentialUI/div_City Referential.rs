@@ -4,6 +4,12 @@
    <name>div_City Referential</name>
    <tag></tag>
    <elementGuidId>d2e1017c-5d43-46ad-b4e1-efbcc7574763</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'wux-afr-label' and (text() = 'City Referential' or . = 'City Referential') and @ref_element = 'Object Repository/Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/iframe_frame-8scD2gaA2GGkEI23b']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

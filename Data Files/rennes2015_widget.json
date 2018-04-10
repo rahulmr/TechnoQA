@@ -1,0 +1,1037 @@
+{
+    "UrbanProject":
+    {
+        "projectName": "Rennes (base 2016 3DXC)",
+        "worldSize": 52428.800,
+        "shiftedPosition": {
+            "x": 1325000,
+            "y": 7200000
+        },
+		"referential": {
+			"title": "rennes2015_3948",
+			"proj": "EPSG:3948",
+			"bbox": {
+				"xmin": 1325000,
+				"ymin": 7200000,
+				"xmax": 1377428.8,
+				"ymax": 7252428.8
+			}
+		},
+        "stylesheets": [
+            "https://rm.uwglobe.com/R419.201705161000-apps/RennesPolymer/assets/style/poi2015.css",
+            "https://rm.uwglobe.com/R419.201705161000-apps/RennesPolymer/assets/style/poi-custom-2016.css"
+        ],
+        "proj4Projection": "EPSG:3948",
+        "geolocAltitude": 5000,
+        "viewer":{
+            "fov":45,
+            "rendering" :"t3d",
+            "performance" :"low",
+	        "renderProfiles" : [
+             	{
+             		"name" : "plaster",
+             		"Effects":
+             		{
+                         "dof": false,
+                         "aa": true,
+                         "ao": {
+                             "enable":true,
+                             "strength": 0.5,
+                             "angle": 1.0
+                         },
+                         "bloom": {
+                             "enable":true,
+                             "factor": 0.2
+                         },
+                         "tone": {
+                             "enable": true,
+                             "gamma": 1.8
+                         },
+                         "sun": {
+                             "ambientFactor": 1.8,
+                             "diffuseFactor":0.7
+                         },
+                         "infinitePlane": true,
+
+                         "shadow": {
+                             "visible": false,
+                             "enable": true,
+                             "bias": -0.0005,
+                             "subNears" :  [1.0, 330.0, 660.0],
+                             "subFars"  :  [330.0, 660.0, 1000.0],
+                             "darkness": 0.60,
+                             "nbShadowMaps": 3,
+                             "resolution": 2048,
+                             "boxSize": 1000,
+                             "boxHeight": 90
+                         }
+             		},
+             		"Configuration": {
+             			"Hide":["Ortho"]
+             		},
+             		"Rendering" :
+             		[
+             			{
+             				"Ids":["Ground"],
+             				"Material":
+             				{
+             					"whiteMode":1,
+             					"oceanTextureUrl": "XCityEnvironment/assets/textures/ocean/waterNormalsn.jpg",
+             					"oceanAlpha": 1.0,
+             					"oceanRangeDetection": 0.0625,
+             					"oceanColor" : "rgb(47,64,71)",
+             					"oceanWhiteColor": "rgb(0,64,102)",
+             					"oceanColorDetection": "rgb(0,64,102)"
+             				}
+             			},
+             			{
+             				"Ids":["Sky"],
+             				"Material": {
+             					"slabColor":"rgb(193,193,193)",
+             					"cubeMapUrl":"XCityEnvironment/assets/textures/skybox/plaster",
+             					"cubeMapExt":".jpg",
+             					"domeSize":20037508
+             				}
+             			},
+             			{
+             				"Ids": ["base_veget_small", "projet_veget_small"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_small_level9/resources/a_inf8m_plaster.png"
+             				}
+             			},
+             			{
+             				"Ids": ["base_veget_big", "projet_veget_big"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_big_level8/resources/a_sup8m_plaster.png"
+             				}
+             			},
+             			{
+             				"Ids": ["projet_veget_projet"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_all_proj_v3_level9_20160907/resources/veget_proj_rennes_plaster.png"
+             				}
+             			},
+             			{
+             				"Ids": ["buildings_rennes", "buildings_metropole", "buildings_rennes_proj", "buildings_metropole_proj", "projets_rennes", "buildings_rennes_spe"],
+             				"Material":
+             				{
+             					"color": "#FFFFFF",
+
+             					"map":null
+             				}
+             			}
+             		]
+             	},
+             	{
+             		"name" : "t3d",
+             		"Effects":
+             		{
+                         "dof": false,
+                         "aa": true,
+                         "ao": {
+                             "enable":true,
+                             "strength": 0.6,
+                             "angle": 1.0
+                         },
+                         "bloom": {
+                             "enable":true,
+                             "factor": 0.2
+                         },
+                         "tone": {
+                             "enable": true,
+                             "gamma": 1.6
+                         },
+                         "sun": {
+                             "ambientFactor": 2.2,
+                             "diffuseFactor": 0.8
+                         },
+                         "infinitePlane": true,
+                         "shadow": {
+                             "visible": false,
+                             "enable": true,
+                             "bias": -0.0005,
+                             "subNears" :  [1.0, 330.0, 660.0],
+                             "subFars"  :  [330.0, 660.0, 1000.0],
+                             "darkness": 0.60,
+                             "nbShadowMaps": 3,
+                             "resolution": 2048,
+                             "boxSize": 1000,
+                             "boxHeight": 90
+                         }
+                     },
+             		"Configuration": {
+             			"Show":["Ortho"]
+             		},
+             		"Rendering" :
+             		[
+             			{
+             				"Ids":["Ground"],
+             				"Material":
+             				{
+             					"whiteMode":0,
+             					"oceanAlpha": 0.0,
+             					"oceanRangeDetection": 0.0,
+             					"oceanColor" : "rgb(0,0,0)",
+             					"oceanWhiteColor": "rgb(0,0,0)",
+             					"oceanColorDetection": "rgb(0,0,0)",
+             					"ambient": "#ffffff",
+             					"color": "#dddddd"
+             				}
+             			},
+             			{
+             				"Ids":["Sky"],
+             				"Material": {
+             					"slabColor":"rgb(152,196,233)",
+             					"cubeMapUrl":"XCityEnvironment/assets/textures/skybox/natural",
+             					"cubeMapExt":".jpg",
+             					"domeSize":20037508
+             				}
+             			},
+             			{
+             				"Ids": ["base_veget_small", "projet_veget_small"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_small_level9/resources/a_inf8m.png"
+             				}
+             			},
+             			{
+             				"Ids": ["base_veget_big", "projet_veget_big"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_big_level8/resources/a_sup8m.png"
+             				}
+             			},
+             			{
+             				"Ids": ["projet_veget_projet"],
+             				"Material" :
+             				{
+             					"atlasNum": {"x":4, "y": 4},
+             					"mapUrl": "https://rm.uwglobe.com/dataserver/layers/veget_all_proj_v3_level9_20160907/resources/veget_proj_rennes.png"
+             				}
+             			},
+             			{
+             				"Ids": ["buildings_rennes", "buildings_metropole", "buildings_rennes_proj", "buildings_metropole_proj"],
+             				"Material" :
+             				{
+             					"color": "#666666",
+             					"ambient": "#ffffff",
+             					"specular": "#000000"
+             				}
+             			},
+             			{
+             				"Ids": ["projets_rennes", "buildings_rennes_spe"],
+             				"Material" :
+             				{
+             					"color": "#bfbfbf",
+             					"ambient": "#e8e8e8",
+             					"emissive": "#666666-ignored"
+             				}
+             			}
+             		]
+             	}
+            ],
+		    "perfProfiles" :
+            [
+            	{
+                    "name": "low",
+            		"disabledEffects": ["ao","bloom","dof","shadow"]
+                },
+            	{
+            		"name" : "med",
+            		"disabledEffects": ["bloom","dof", "shadow"]
+            	},
+            	{
+            		"name" : "high",
+            		"disabledEffects": []
+            	}
+            ],
+            "autoShift" : true,
+            "loadParentTiles": true,
+            "periodicTerrainUpdate": 1000
+        },
+        "withCredentials": {
+            "default": true,
+            "rennesmetropole.uwglobe.com": false,
+            "rm.uwglobe.com": false,
+            "api.tiles.mapbox.com": false
+        },
+        "crop": {
+            "center": [1349000, 7224500],
+            "width": 40000,
+            "height": 45000
+        },
+        "poiSettings": {
+            "maxVisible": 1000,
+            "_checkCollision": false,
+            "_checkDistance": false
+        },
+        "contexts": [{
+            "Root": [
+                {
+                    "className": "Feature",
+                    "name": "DTM",
+                    "visible": true,
+                    "Geometry": {
+                        "className": "Terrain",
+                        "levelMin": 0,
+                        "levelMax": 9,
+                        "priority": 3,
+                        "cache": 100,
+                        "res": 68,
+                        "border": 2,
+                        "lodBias":2,
+                        "url": "https://rm.uwglobe.com/dataserver/layers/mnt_2014_cc48/tiles/%l/%x/%y"
+                    }
+                },
+                {
+                    "className": "Folder",
+                    "name": "Raster Overlays",
+                    "children": [
+                        {
+                            "className": "Feature",
+                            "name": "Carto Rennes Métropole",
+                            "id": "carto",
+                            "visible": false,
+                            "tags": ["landcover"],
+                            "Geometry": {
+                                "className": "RasterOverlay",
+                                "levelMin": 0,
+                                "levelMax": 9,
+                                "priority": 5,
+                                "cache": 100,
+                                "opacity": 1.0,
+                                "res": 256,
+                                "url": "https://rm.uwglobe.com/dataserver/layers/carto_osm_cc48_50cm/tiles/%l/%x/%y"
+                            }
+                        },
+                        {
+                            "className": "Feature",
+                            "name": "Ortho Rennes Métropole",
+                            "id": "ortho",
+                            "visible": true,
+                            "Geometry": {
+                                "className": "RasterOverlay",
+                                "levelMin": 0,
+                                "levelMax": 11,
+                                "priority": 3,
+                                "cache": 100,
+                                "opacity": 1.0,
+                                "res": 256,
+                                "url": "https://rm.uwglobe.com/dataserver/layers/ortho_2014_cc48/tiles/%l/%x/%y"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "className":"Feature",
+                    "name":"Rennes Metropole",
+                    "description":"Point de vue général",
+                    "id":"rennesPOV",
+                    "PointOfView":{
+                        "className":"PointOfView",
+                        "position":[1352608.2, 7221981.6, -79.0],
+                        "rotation":[-4.32,46.1],
+                        "length":8160
+                    }
+				},
+				{
+                    "className": "Folder",
+                    "name": "Bâtiments communs",
+                    "id": "building_flag",
+                    "visible": true,
+                    "userData": {
+                    	"description": "this faked unused folder is just there as flag to switch building and vegetation on or off. Its visible property is looked at to know whether 3D models for each state (exclusive child of the base_switch_folder) has to be activated or not"
+                    },
+                    "children": [
+						{
+							"className": "Feature",
+							"name": "Bâtiments Rennes spécifiques",
+							"description": "Croix mission, mur prison",
+							"id": "buildings_rennes_spe",
+							"visible": true,
+							"selectable": true,
+							"Geometry": {
+								"className": "RdbLink",
+								"levelMax": 8,
+								"levelMin": 8,
+								"builtPerInterval": 1,
+								"builderInterval": 20,
+								"priority": 4,
+								"priorityOffset": 0,
+								"cache": 30,
+								"invertY": false,
+								"type": "json",
+								"url": "https://rm.uwglobe.com/dataserver/layers/bat_patch_exist_sv_level8_20160907/tiles/%l/%x/%y",
+								"Factory": {
+									"className": "File",
+									"path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/projet/model/rennes/projets_201609071230/",
+									"shader": "building",
+									"suffix": "json",
+									"stridAttribute": "strid",
+									"fileNameAttribute": "filename"
+								}
+							}
+						}
+                    ]
+				},
+				{
+					"className": "Folder",
+					"name": "Etats",
+					"id": "base_switch_folder",
+					"visible": true,
+					"exclusive": true,
+					"opened": true,
+					"children": [
+						{
+							"className": "Folder",
+							"name": "Existant",
+							"description": "Etat actuel",
+							"id": "base_folder",
+							"visible": true,
+							"opened": false,
+							"children": [
+								{
+									"className": "Folder",
+									"name": "Végétation",
+									"id": "base_veget",
+									"visible": true,
+									"opened": false,
+									"children": [
+										{
+											"className": "Feature",
+											"name": "Small",
+											"description": "inférieur à 8 m",
+											"id": "base_veget_small",
+											"selectable": true,
+											"userData": {
+												"icon": "urban:tree"
+											},
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 11,
+												"levelMin": 9,
+												"builtPerInterval": 50,
+												"builderInterval": 5,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 100,
+												"invertY": false,
+												"type": "json",
+												"lodBias": 0,
+												"url": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_small_level9/tiles/%l/%x/%y",
+												"Factory":{
+													"className": "CrossQuad",
+													"stridAttribute": "strid",
+													"scaleAttribute": "scale",
+													"altitudeAttribute": "altitude",
+													"orientationAttribute": "orient",
+													"textureIndexAttribute": "index",
+													"atlasNum": {"x":4, "y": 4},
+													"rendering" : [
+														{"plaster" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_small/resources/a_inf8m_plaster.png"}},
+														{"t3d" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_small/resources/a_inf8m.png"}}
+													]
+												}
+											}
+										},
+										{
+											"className": "Feature",
+											"name": "Big",
+											"description": "supérieur à 8 m",
+											"id": "base_veget_big",
+											"selectable": true,
+											"userData": {
+												"icon": "urban:tree"
+											},
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 10,
+												"levelMin": 8,
+												"builtPerInterval": 50,
+												"builderInterval": 5,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 100,
+												"invertY": false,
+												"type": "json",
+												"lodBias": 0,
+												"url": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_big_level8/tiles/%l/%x/%y",
+												"Factory":{
+													"className": "CrossQuad",
+													"stridAttribute": "strid",
+													"scaleAttribute": "scale",
+													"altitudeAttribute": "altitude",
+													"orientationAttribute": "orient",
+													"textureIndexAttribute": "index",
+													"atlasNum": {"x":4, "y": 4},
+													"rendering" : [
+														{"plaster" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_big/resources/a_sup8m_plaster.png"}},
+														{"t3d" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_big/resources/a_sup8m.png"}}
+													]
+												}
+											}
+										}
+									]
+								},
+								{
+									"className": "Folder",
+									"name": "Bâtiments",
+									"id": "base_building",
+									"visible": true,
+									"opened": false,
+									"children": [
+										{
+											"className": "Feature",
+											"name": "Bâtiments Métropole",
+											"description": "Streamvisu existants géophotos",
+											"id": "buildings_metropole",
+											"visible": true,
+											"selectable": true,
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 9,
+												"levelMin": 9,
+												"builtPerInterval": 1,
+												"builderInterval": 20,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 30,
+												"invertY": false,
+												"type": "json",
+												"url": "https://rm.uwglobe.com/dataserver/layers/bat_all_metropole_3dxc_t2_level9_20170404/tiles/%l/%x/%y",
+												"Factory": {
+													"className": "Model",
+													"stridAttribute": "strid",
+													"fileNameAttribute": "FILENAME",
+													"path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/base/building_geophoto/rennes-metropole/metropole_3dxc_201704041200/",
+													"shader": "building",
+													"suffix": "3dxc"
+												}
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"className": "Folder",
+							"name": "Projet",
+							"description": "Etat futur",
+							"id": "projet_folder",
+							"visible": false,
+							"opened": false,
+							"children": [
+								{
+									"className": "Folder",
+									"name": "Végétation",
+									"id": "projet_veget",
+									"visible": false,
+									"opened": false,
+									"children": [
+										{
+											"className": "Feature",
+											"name": "Small",
+											"description": "inférieur à 8 m",
+											"id": "projet_veget_small",
+											"visible": false,
+											"selectable": true,
+											"userData": {
+												"icon": "urban:tree"
+											},
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 11,
+												"levelMin": 9,
+												"builtPerInterval": 50,
+												"builderInterval": 5,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 100,
+												"invertY": false,
+												"type": "json",
+												"lodBias": 0,
+												"url": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_small_proj_level9_20160504/tiles/%l/%x/%y",
+												"Factory":{
+													"className": "CrossQuad",
+													"stridAttribute": "strid",
+													"scaleAttribute": "scale",
+													"altitudeAttribute": "altitude",
+													"orientationAttribute": "orient",
+													"textureIndexAttribute": "index",
+													"atlasNum": {"x":4, "y": 4},
+													"rendering" : [
+														{"plaster" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_small/resources/a_inf8m_plaster.png"}},
+														{"t3d" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_small/resources/a_inf8m.png"}}
+													]
+												}
+											}
+										},
+										{
+											"className": "Feature",
+											"name": "Big",
+											"description": "supérieur à 8 m",
+											"id": "projet_veget_big",
+											"visible": false,
+											"selectable": true,
+											"userData": {
+												"icon": "urban:tree"
+											},
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 10,
+												"levelMin": 8,
+												"builtPerInterval": 50,
+												"builderInterval": 5,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 100,
+												"invertY": false,
+												"type": "json",
+												"lodBias": 0,
+												"url": "https://rm.uwglobe.com/dataserver/layers/veget_cc48_big_proj_level8_20160504/tiles/%l/%x/%y",
+												"Factory":{
+													"className": "CrossQuad",
+													"stridAttribute": "strid",
+													"scaleAttribute": "scale",
+													"altitudeAttribute": "altitude",
+													"orientationAttribute": "orient",
+													"textureIndexAttribute": "index",
+													"atlasNum": {"x":4, "y": 4},
+													"rendering" : [
+														{"plaster" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_big/resources/a_sup8m_plaster.png"}},
+														{"t3d" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_2014_cc48_big/resources/a_sup8m.png"}}
+													]
+												}
+											}
+										},
+										{
+											"className": "Feature",
+											"name": "Projets",
+											"description": "au sein des projets",
+											"id": "projet_veget_projet",
+											"visible": false,
+											"selectable": true,
+											"userData": {
+												"icon": "urban:tree"
+											},
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 10,
+												"levelMin": 9,
+												"builtPerInterval": 50,
+												"builderInterval": 5,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 100,
+												"invertY": false,
+												"type": "json",
+												"lodBias": 0,
+												"url": "https://rm.uwglobe.com/dataserver/layers/veget_all_proj_v3_level9_20160907/tiles/%l/%x/%y",
+												"Factory":{
+													"className": "CrossQuad",
+													"stridAttribute": "strid",
+													"scaleAttribute": "scale",
+													"altitudeAttribute": "altitude",
+													"orientationAttribute": "orient",
+													"textureIndexAttribute": "index",
+													"atlasNum": {"x":4, "y": 4},
+													"rendering" : [
+														{"plaster" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_all_proj_v3_level9_20160907/resources/veget_proj_rennes_plaster.png"}},
+														{"t3d" : {"atlasUrl": "https://rm.uwglobe.com/dataserver/layers/veget_all_proj_v3_level9_20160907/resources/veget_proj_rennes.png"}}
+													]
+												}
+											}
+										}
+									]
+								},
+								{
+									"className": "Folder",
+									"name": "Bâtiments",
+									"id": "projet_building",
+									"visible": false,
+									"opened": false,
+									"children": [
+										{
+											"className": "Feature",
+											"name": "Bâtiments Rennes hors projets",
+											"description": "Streamvisu existants géophotos",
+											"id": "buildings_rennes_proj",
+											"visible": false,
+											"selectable": true,
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 9,
+												"levelMin": 9,
+												"builtPerInterval": 1,
+												"builderInterval": 20,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 30,
+												"invertY": false,
+												"type": "json",
+												"_url": "https://rm.uwglobe.com/dataserver/layers/bat_rennes_cc48_proj_sv_level9_20160510/tiles/%l/%x/%y",
+												"url": "https://rm.uwglobe.com/dataserver/layers/bat_rennes_exist_for_projet_level9_20170518/tiles/%l/%x/%y",
+												"Factory": {
+													"_className": "File",
+													"className": "Model",
+													"stridAttribute": "strid",
+													"fileNameAttribute": "FILENAME",
+													"_path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/projet/building_geophoto/rennes/rennes_201603070842_patch2/hack_",
+													"path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/projet/building_geophoto/rennes/rennes_201705182000_sv2/",
+													"shader": "building",
+													"_suffix": "json",
+													"suffix": "3dxc"
+												}
+											}
+										},
+										{
+											"className": "Feature",
+											"name": "Bâtiments Métropole",
+											"description": "Streamvisu existants géophotos",
+											"id": "buildings_metropole_proj",
+											"visible": false,
+											"selectable": true,
+											"Geometry": {
+												"className": "RdbLink",
+												"levelMax": 9,
+												"levelMin": 9,
+												"builtPerInterval": 1,
+												"builderInterval": 20,
+												"priority": 4,
+												"priorityOffset": 0,
+												"cache": 30,
+												"invertY": false,
+												"type": "json",
+												"url": "https://rm.uwglobe.com/dataserver/layers/bat_metropole_cc48_proj_sv_level9_20160307/tiles/%l/%x/%y",
+												"Factory": {
+													"className": "File",
+													"stridAttribute": "strid",
+													"fileNameAttribute": "filename",
+													"path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/projet/building_geophoto/rennes-metropole/metropole_201602291102/hack_",
+													"shader": "building",
+													"suffix": "json"
+												}
+											}
+										}
+									]
+								},
+								{
+									"className": "Feature",
+									"name": "Projets Rennes",
+									"description": "Streamvisu projets",
+									"id": "projets_rennes",
+									"visible": false,
+									"selectable": true,
+									"Geometry": {
+										"className": "RdbLink",
+										"levelMax": 8,
+										"levelMin": 8,
+										"builtPerInterval": 1,
+										"builderInterval": 20,
+										"priority": 4,
+										"priorityOffset": 0,
+										"cache": 30,
+										"invertY": false,
+										"type": "json",
+										"url": "https://rm.uwglobe.com/dataserver/layers/bat_all_projet_sv_level8_20160907/tiles/%l/%x/%y",
+										"Factory": {
+											"className": "File",
+											"stridAttribute": "strid",
+											"fileNameAttribute": "filename",
+											"path": "https://rm.uwglobe.com/static/epsg3948/rennes-metropole/projet/model/rennes/projets_201609071230/",
+											"shader": "building",
+											"suffix": "json"
+										}
+									}
+								},
+								{
+									"className":"Feature",
+									"name":"Ortho projet",
+									"id": "ortho_proj_rennes",
+									"visible": false,
+									"Geometry":{
+										"className": "RasterOverlay",
+										"type": "Texture",
+										"res": 256,
+										"levelMin": 5,
+										"levelMax": 11,
+										"opacity": 1,
+										"cache": 50,
+										"priority": 5,
+										"invertY": false,
+										"priorityOffset": 4,
+										"url": "https://rm.uwglobe.com/dataserver/layers/ortho_projets_cc48_20160907/tiles/%l/%x/%y",
+										"AABBox": {
+											"min":[1343214.444, 7207914.621],
+											"max":[1357129.488, 7226446.982]
+										}
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"className": "Folder",
+					"name": "Toponymie",
+					"id": "RDB_topo",
+					"visible": true,
+					"opened": false,
+					"children": [
+						{
+							"className": "Feature",
+							"name": "Toponyme_cities",
+							"id": "poi_toponymes_cities",
+							"visible": true,
+							"Geometry": {
+								"className": "RdbLink",
+								"id": "poi_toponymes_cities_rdb",
+								"levelMax": 18,
+								"levelMin": 0,
+								"priority": 4,
+								"priorityOffset": 0,
+								"cache": 200,
+								"invertY": false,
+								"type": "json",
+								"url": "https://rm.uwglobe.com/dataserver/layers/toponymes_cities_v5/tiles/%l/%x/%y",
+								"Factory":{
+									"className": "pointofinterest",
+									"attributName": "name",
+                                    "stridAttribute": "strid",
+                                    "attrAltitude": "altitude",
+                                    "attributAltitude": "altitude",
+									"attributContent": "name",
+									"attributClass" : "styleclass"
+								},
+								"AABBox": {
+									"min":[1325000.0,7200000.0],
+									"max":[1377428.8,7252428.7999999998]
+								}
+							}
+						},
+						{
+							"className": "Feature",
+							"name": "Toponyme_equipements",
+							"id": "poi_toponymes_equipements",
+							"visible": true,
+							"Geometry": {
+								"className": "RdbLink",
+								"id": "poi_toponymes_equipements_rdb",
+								"levelMax": 10,
+								"levelMin": 6,
+								"lodBias": 1,
+								"priority": 4,
+								"priorityOffset": 0,
+								"cache": 200,
+								"invertY": false,
+								"type": "json",
+								"url": "https://rm.uwglobe.com/dataserver/layers/toponymes_equipements_v5/tiles/%l/%x/%y",
+								"Factory":{
+									"className": "pointofinterest",
+									"attributName": "name",
+                                    "stridAttribute": "strid",
+                                    "attrAltitude": "altitude",
+                                    "attributAltitude": "altitude",
+									"attributContent": "name",
+									"attributClass" : "styleclass"
+								},
+								"AABBox": {
+									"min":[1325000.0,7200000.0],
+									"max":[1377428.8,7252428.7999999998]
+								}
+							}
+						},
+						{
+							"className": "Feature",
+							"name": "Toponyme_hydro",
+							"id": "poi_toponymes_hydro",
+							"visible": true,
+							"Geometry": {
+								"className": "RdbLink",
+								"id": "poi_toponymes_hydro_rdb",
+								"levelMax": 18,
+								"levelMin": 5,
+								"priority": 4,
+								"priorityOffset": 0,
+								"cache": 200,
+								"invertY": false,
+								"type": "json",
+								"url": "https://rm.uwglobe.com/dataserver/layers/toponymes_reseau_hydro_v5/tiles/%l/%x/%y",
+								"Factory":{
+									"className": "pointofinterest",
+									"attributName": "name",
+                                    "stridAttribute": "strid",
+                                    "attrAltitude": "altitude",
+                                    "attributAltitude": "altitude",
+									"attributContent": "name",
+									"attributClass" : "styleclass"
+								},
+								"AABBox": {
+									"min":[1325000.0,7200000.0],
+									"max":[1377428.8,7252428.7999999998]
+								}
+							}
+						},
+						{
+							"className": "Feature",
+							"name": "Toponyme_site_naturels",
+							"id": "poi_toponymes_site_naturels",
+							"visible": true,
+							"Geometry": {
+								"className": "RdbLink",
+								"id": "poi_toponymes_site_naturels_rdb",
+								"levelMax": 18,
+								"levelMin": 5,
+								"priority": 4,
+								"priorityOffset": 0,
+								"cache": 200,
+								"invertY": false,
+								"type": "json",
+								"url": "https://rm.uwglobe.com/dataserver/layers/toponymes_sites_naturels_v5/tiles/%l/%x/%y",
+								"Factory":{
+									"className": "pointofinterest",
+									"attributName": "name",
+                                    "stridAttribute": "strid",
+                                    "attrAltitude": "altitude",
+                                    "attributAltitude": "altitude",
+									"attributContent": "name",
+									"attributClass" : "styleclass"
+								},
+								"AABBox": {
+									"min":[1325000.0,7200000.0],
+									"max":[1377428.8,7252428.7999999998]
+								}
+							}
+						}
+					]
+				},
+                {
+                    "className": "Folder",
+                    "name": "Cartographie",
+                    "id": "carto_folder",
+                    "opened": false,
+                    "exclusive": false,
+                    "userData": {
+                    	"contentApplyVisible": false
+                    },
+                    "children": [
+						{
+							"className":"Feature",
+							"name":"BRGM Carte Géologique",
+							"id": "geologique",
+							"visible": false,
+							"Geometry":{
+								"className": "RasterOverlay",
+								"type": "Texture",
+								"res": 256,
+								"levelMax": 6,
+								"opacity": 1,
+								"cache": 50,
+								"priority": 5,
+								"invertY": false,
+								"priorityOffset": 4,
+								"url": "http://rennesmetropole.uwglobe.com/geoserver/gwc/service/tms/1.0.0/rm%3AGEOLOGIE@rennes2015_3948@jpeg/%l/%x/%y.jpeg"
+							}
+						},
+						{
+							"className":"Feature",
+							"name":"CORINE Land Cover",
+							"id": "clc",
+							"visible": false,
+							"Geometry":{
+								"className": "RasterOverlay",
+								"type": "Texture",
+								"res": 256,
+								"levelMax": 9,
+								"opacity": 0.5,
+								"cache": 50,
+								"priority": 5,
+								"invertY": false,
+								"priorityOffset": 4,
+								"url": "http://rennesmetropole.uwglobe.com/geoserver/gwc/service/tms/1.0.0/rm%3ACLC00@rennes2015_3948@jpeg/%l/%x/%y.jpeg"
+							}
+						}
+
+					]
+				},
+				{
+					"className": "Folder",
+					"name": "Réglementation",
+					"id": "cadastre",
+					"opened": false,
+					"exclusive": false,
+                    "userData": {
+                    	"contentApplyVisible": false
+                    },
+					"children": [
+						{
+							"className":"Feature",
+							"name":"BRGM Forage",
+							"id": "forage",
+							"visible": false,
+							"Geometry":{
+								"className": "RasterOverlay",
+								"type": "Texture",
+								"res": 256,
+								"levelMax": 8,
+								"opacity": 1,
+								"cache": 50,
+								"priority": 5,
+								"invertY": false,
+								"priorityOffset": 4,
+								"url": "http://rennesmetropole.uwglobe.com/geoserver/gwc/service/tms/1.0.0/rm%3ABSS_TOTAL_AVEC_LABEL@rennes2015_3948@png/%l/%x/%y.png"
+							}
+						}
+					]
+				}
+			]
+        }],
+        "environment": {
+            "dof": false,
+            "ao": {
+                "enable":true,
+                "strength": 0.8,
+                "angle": 1.2
+            },
+            "bloom": {
+                "enable":false,
+                "factor": 0.2
+            },
+            "tone": {
+                "enable": true,
+                "gamma": 1.5
+            },
+            "sun": {
+                "ambientFactor": 1.2,
+                "diffuseFactor":0.9,
+                "target":   {"x": 0,    "y": 0,    "z": 0},
+                "position": {"x": 50000, "y": 50000, "z": 50000}
+            },
+            "infinitePlane": true,
+            "skyboxPath": "XCityEnvironment/assets/textures/skybox/",
+            "lensFlarePath": "XCityEnvironment/assets/textures/lensFlare/",
+            "skyboxExt": ".jpg",
+            "skyDomeSize":20037508,
+            "shadow": {
+                "visible": false,
+                "enable": true,
+                "bias": 0.00005,
+                "subNears" :  [1.0, 20.0, 60.0],
+                "subFars"  :  [20.0, 60.0, 500.0],
+                "darkness": 0.60,
+                "nbShadowMaps": 3,
+                "resolution": 2048,
+                "boxSize": 500,
+                "boxHeight": 90
+            }
+        }
+    }
+}

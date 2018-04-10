@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check presence of 3DSwym frame when click on Communities item</description>
-   <name>CheckCommunitiesItem</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9c266524-19ba-4733-ae99-81bad4b334ee</testCaseGuid>
-</TestCaseEntity>

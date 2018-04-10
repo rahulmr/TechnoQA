@@ -4,6 +4,12 @@
    <name>div_breadcrumb__elem-icon font</name>
    <tag></tag>
    <elementGuidId>90ca7f29-e220-47c2-8a5a-a225bb9d3c70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'breadcrumb__elem-icon fonticon breadcrumb__elem-open-down' and @ref_element = 'Object Repository/3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/iframe_frame-preview-293675']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

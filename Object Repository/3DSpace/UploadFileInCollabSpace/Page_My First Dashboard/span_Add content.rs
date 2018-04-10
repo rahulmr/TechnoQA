@@ -4,6 +4,12 @@
    <name>span_Add content</name>
    <tag></tag>
    <elementGuidId>cfe71c44-c459-46ed-94ba-a54aedc89a62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'item-text' and (text() = 'Add content' or . = 'Add content') and @ref_element = 'Object Repository/3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/iframe_frame-preview-293675']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
