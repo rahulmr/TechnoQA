@@ -20,13 +20,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CreateNewTab/Page_CreateNewTab/span_icon fonticon fonticon-pl'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('CreateNewTab/Page_Tab/Page_New Dashboard/span_icon fonticon fonticon-pl'), 10)
 
-WebUI.waitForElementPresent(findTestObject('CreateNewTab/Page_CreateNewTab/span_New Tab 1'), 60, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('CreateNewTab/Page_Tab/Page_New Dashboard/span_icon fonticon fonticon-pl'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('CreateNewTab/Page_CreateNewTab/span_New Tab 1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('CreateNewTab/Page_Tab/Page_New Dashboard/span_New Tab 1'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('CreateNewTab/Page_CreateNewTab/input_edit-in-place edit-in-pl'), 'City Discover', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('CreateNewTab/Page_Tab/Page_New Dashboard/span_New Tab 1'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('CreateNewTab/Page_CreateNewTab/input_edit-in-place edit-in-pl'), 'Techno', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('CreateNewTab/Page_CreateNewTab/input_edit-in-place edit-in-pl'), Keys.chord(Keys.ENTER), 
     FailureHandling.CONTINUE_ON_FAILURE)

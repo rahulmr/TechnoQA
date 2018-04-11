@@ -4,7 +4,7 @@
    <name>SCN048023 Auto_3DCity Discover widget test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-10T11:30:18</lastRun>
+   <lastRun>2018-04-10T19:06:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

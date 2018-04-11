@@ -4,7 +4,7 @@
    <name>SCN047864 Auto_3DCityCity Referential test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-10T11:28:28</lastRun>
+   <lastRun>2018-04-10T19:04:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

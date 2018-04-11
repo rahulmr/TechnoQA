@@ -27,7 +27,7 @@ WebUI.click(findTestObject('CreateNewDashboardAndTab/Page_CreateNewDashboard/div
 WebUI.click(findTestObject('CreateNewDashboardAndTab/Page_CreateNewDashboard/span_Add Dashboard...'))
 
 'Give the Dashboard neame'
-WebUI.setText(findTestObject('CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'), 'Test JCN9 auto')
+WebUI.setText(findTestObject('CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'), 'Technoqa')
 
 'Click on create button'
 WebUI.click(findTestObject('CreateNewDashboardAndTab/Page_CreateNewDashboard/button_Create'))

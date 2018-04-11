@@ -22,6 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForPageLoad(30)
 
+'Expand the widget'
+WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Click on View tab in the action bar'
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/TestCityReferentialUI/Page_CityReferentialUI/span_View'))
 

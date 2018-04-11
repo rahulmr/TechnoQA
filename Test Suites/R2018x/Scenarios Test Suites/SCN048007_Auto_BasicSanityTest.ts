@@ -4,7 +4,7 @@
    <name>SCN048007_Auto_BasicSanityTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-10T11:26:53</lastRun>
+   <lastRun>2018-04-10T19:01:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/TabFunctions/CreateNewTab</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>37433b7a-fb2b-44da-aacc-72d7ba61806b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3DDTopBar/TopBar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5171817e-2215-44de-ac7f-3f7638367968</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -52,6 +58,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/3DspaceFunctions/New3DSpaceCreation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f3baaaf-6af3-4c76-b2d7-edc0a2a8971a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3DspaceFunctions/UploadDataIn3Dspace</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3dfe0de1-75e6-4084-849a-f93a04608608</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3DSearch/SearchData</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>872d53d6-1183-47f3-88a4-9c42927d677a</guid>

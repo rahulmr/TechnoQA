@@ -24,13 +24,15 @@ WebUI.waitForElementPresent(findTestObject('SearchData/Page_SearchData/input_uwa
 
 WebUI.click(findTestObject('SearchData/Page_SearchData/input_uwa-autocomplete nv-auto'))
 
+WebUI.waitForElementPresent(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_Search'), 10)
+
 WebUI.click(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_Search'))
 
 WebUI.click(findTestObject('SearchData/Page_SearchData/input_uwa-autocomplete nv-auto'))
 
-WebUI.waitForElementPresent(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_DS - DSQAL096 euw1'), 10)
+WebUI.waitForElementPresent(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_DS - DSQAL096 euw1'), 10, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_DS - DSQAL096 euw1'))
+WebUI.click(findTestObject('SearchData/Page_SearchData/Page_SearchMenu/a_DS - DSQAL096 euw1'), FailureHandling.OPTIONAL)
 
 'Give the test in the text area of the search bar'
 WebUI.setText(findTestObject('SearchData/Page_SearchData/input_uwa-autocomplete nv-auto'), 'rennes2015')
@@ -57,5 +59,5 @@ WebUI.click(findTestObject('SearchData/Page_SearchData/span_preview-icon fontico
 WebUI.click(findTestObject('SearchData/Page_SearchData/button_Add'))
 
 'Verify the data is present'
-WebUI.verifyElementPresent(findTestObject('Data/Page_Test JCN9 auto/div_rennes2015_widget'), 10)
+WebUI.verifyElementPresent(findTestObject('Data/Page_Test JCN9 auto/div_rennes2015_widget'), 20)
 

@@ -63,7 +63,9 @@ WebUI.waitForElementPresent(findTestObject('3DD_TopBar/Page_3DDTopBar/div_conten
 'Click on Drive icon'
 WebUI.click(findTestObject('3DD_TopBar/Page_3DDTopBar/div_content topbar-menu-item t'))
 
-WebUI.click(findTestObject('3DD_TopBar/Page_3DDTopBar/div_content topbar-menu-item t_1'))
+WebUI.waitForElementVisible(findTestObject('3DD_TopBar/Page_3DDTopBar/div_content topbar-menu-item t_1'), 10)
+
+WebUI.click(findTestObject('3DD_TopBar/Page_3DDTopBar/div_content topbar-menu-item t_1'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('3DD_TopBar/Page_3DDTopBar/div_social topbar-menu-item to'), 10)
 
@@ -71,6 +73,8 @@ WebUI.waitForElementPresent(findTestObject('3DD_TopBar/Page_3DDTopBar/div_social
 WebUI.click(findTestObject('3DD_TopBar/Page_3DDTopBar/div_social topbar-menu-item to'))
 
 WebUI.waitForElementPresent(findTestObject('3DD_TopBar/Page_3DDTopBar/div_social topbar-menu-item to_1'), 10)
+
+WebUI.click(findTestObject('3DD_TopBar/Page_3DDTopBar/div_social topbar-menu-item to_1'), FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('3DD_TopBar/Page_3DDTopBar/div_help topbar-menu-item topb'), 10)
 
