@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GlobeViewerTest" time="77" tests="7" failures="0" errors="0">
+   <testsuite name="GlobeViewerTest" tests="7" failures="0" errors="0" time="77" timestamp="2018-04-16 16:54:59" hostname="ADS - LP5-ADS-DSY.dsone.3ds.com" id="Test Suites/R2018x/Scenarios Test Suites/GlobeViewerTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452"/>
+         <property name="logFiles" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452\\1523890518208.png, C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452\\1523890528737.png"/>
+         <property name="hostName" value="ADS - LP5-ADS-DSY.dsone.3ds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.239.168.156"/>
+         <property name="sessionId" value="248e0cb5dbeae99077c775fd9b11faea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NavigateURLR2018x" classname="Test Cases/NavigateURLR2018x" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:54:59 - [TEST_CASE][PASSED] - Test Cases/NavigateURLR2018x: Test Cases/NavigateURLR2018x
+
+2018-04-16 16:54:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-16 16:55:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-16 16:55:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://euw1-20qna10404-ifwe.3dx-staging.3ds.com/' successfully
+
+2018-04-16 16:55:04 - [MESSAGE][PASSED] - Navigate to 'https://euw1-20qna10404-ifwe.3dx-staging.3ds.com/' successfully
+
+2018-04-16 16:55:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-16 16:55:05 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginToPod" classname="Test Cases/LoginToPod" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:55:05 - [TEST_CASE][PASSED] - Test Cases/LoginToPod: Test Cases/LoginToPod
+
+2018-04-16 16:55:05 - [TEST_STEP][PASSED] - setText: Text 'Technoqa' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_username'
+
+2018-04-16 16:55:06 - [MESSAGE][PASSED] - Text 'Technoqa' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_username'
+
+2018-04-16 16:55:06 - [TEST_STEP][PASSED] - setText: Text 'Techno2016#' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_password'
+
+2018-04-16 16:55:06 - [MESSAGE][PASSED] - Text 'Techno2016#' is set on object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_password'
+
+2018-04-16 16:55:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is visible
+
+2018-04-16 16:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is visible
+
+2018-04-16 16:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is clicked on
+
+2018-04-16 16:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro' is clicked on
+
+2018-04-16 16:55:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE' is visible
+
+2018-04-16 16:55:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE' is visible
+
+2018-04-16 16:55:07 - [TEST_STEP][PASSED] - click: Unable to click on object 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/label_Do not show at startup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/label_Do not show at startup' located by 'By.xpath: //label[@class = 'ds-coachmark-checkbox' and (text() = 'Do not show at startup' or . = 'Do not show at startup')]' not found)
+
+2018-04-16 16:55:18 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/label_Do not show at startup' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/label_Do not show at startup' located by 'By.xpath: //label[@class = 'ds-coachmark-checkbox' and (text() = 'Do not show at startup' or . = 'Do not show at startup')]' not found)
+[[ATTACHMENT|C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452\\1523890518208.png]]
+
+2018-04-16 16:55:18 - [TEST_STEP][PASSED] - click: Unable to click on object 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/span_ds-coachmark-close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/span_ds-coachmark-close' located by 'By.xpath: //span[@class = 'ds-coachmark-close']' not found)
+
+2018-04-16 16:55:29 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/span_ds-coachmark-close' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginToPod/CloseTheWindow/Page_CloseWindow/span_ds-coachmark-close' located by 'By.xpath: //span[@class = 'ds-coachmark-close']' not found)
+[[ATTACHMENT|C:\\Users\\ads\\git\\TechnoQA\\Reports\\R2018x\\Scenarios Test Suites\\GlobeViewerTest\\20180416_165452\\1523890528737.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardFunctions/CreateNewDashboard" classname="Test Cases/DashboardFunctions/CreateNewDashboard" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:55:29 - [TEST_CASE][PASSED] - Test Cases/DashboardFunctions/CreateNewDashboard: Test Cases/DashboardFunctions/CreateNewDashboard
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/div_dashboard-actions-holder f' is clicked on
+
+2018-04-16 16:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/div_dashboard-actions-holder f' is clicked on
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/span_Add Dashboard...' is clicked on
+
+2018-04-16 16:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/span_Add Dashboard...' is clicked on
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - setText: Text 'Technoqa' is set on object 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'
+
+2018-04-16 16:55:29 - [MESSAGE][PASSED] - Text 'Technoqa' is set on object 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/input_form-control form-contro'
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/button_Create' is clicked on
+
+2018-04-16 16:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewDashboardAndTab/Page_CreateNewDashboard/button_Create' is clicked on
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:55:29 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CompassFunctions/SmallCompassWest" classname="Test Cases/CompassFunctions/SmallCompassWest" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:55:29 - [TEST_CASE][PASSED] - Test Cases/CompassFunctions/SmallCompassWest: Test Cases/CompassFunctions/SmallCompassWest
+
+2018-04-16 16:55:29 - [TEST_STEP][PASSED] - verifyImagePresent: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/SmallCompass/Page_SmallCompass/Compass/west.jpg' is present
+
+2018-04-16 16:55:30 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/SmallCompass/Page_SmallCompass/Compass/west.jpg' is present
+
+2018-04-16 16:55:30 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/SmallCompass/Page_SmallCompass/Compass/west.jpg' is clicked on
+
+2018-04-16 16:55:31 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/SmallCompass/Page_SmallCompass/Compass/west.jpg' is clicked on
+
+2018-04-16 16:55:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/SmallCompass/Page_Verification_SmallCompass/span_My 3D Modeling Apps' is present
+
+2018-04-16 16:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/SmallCompass/Page_Verification_SmallCompass/span_My 3D Modeling Apps' is present
+
+2018-04-16 16:55:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SmallCompass/Page_Verification_SmallCompass/span_My 3D Modeling Apps' is present
+
+2018-04-16 16:55:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2018-04-16 16:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/SmallCompass/Page_Verification_SmallCompass/span_My 3D Modeling Apps' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Techno_GlobeViewer/Launch_GlobeViewer" classname="Test Cases/Techno_GlobeViewer/Launch_GlobeViewer" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:55:31 - [TEST_CASE][PASSED] - Test Cases/Techno_GlobeViewer/Launch_GlobeViewer: Test Cases/Techno_GlobeViewer/Launch_GlobeViewer
+
+2018-04-16 16:55:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:55:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 16:55:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_compass-search-button font' is clicked on
+
+2018-04-16 16:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_compass-search-button font' is clicked on
+
+2018-04-16 16:55:32 - [TEST_STEP][PASSED] - setText: Text 'Globe Viewer' is set on object 'Object Repository/Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/input_compass-search-text form'
+
+2018-04-16 16:55:32 - [MESSAGE][PASSED] - Text 'Globe Viewer' is set on object 'Object Repository/Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/input_compass-search-text form'
+
+2018-04-16 16:55:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:55:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 16:55:32 - [TEST_STEP][PASSED] - dragAndDropToObject: Dragged object with id 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/li_Globe Viewer' to object with id 'TestObject - 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_wp-tabview-panel'' successfully
+
+2018-04-16 16:55:32 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/li_Globe Viewer' to object with id 'TestObject - 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_wp-tabview-panel'' successfully
+
+2018-04-16 16:55:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_fonticon fonticon-resize-' is clicked on
+
+2018-04-16 16:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_fonticon fonticon-resize-' is clicked on
+
+2018-04-16 16:55:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:55:33 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Techno_GlobeViewer/TestGlobeViewerUI" classname="Test Cases/Techno_GlobeViewer/TestGlobeViewerUI" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:55:33 - [TEST_CASE][PASSED] - Test Cases/Techno_GlobeViewer/TestGlobeViewerUI: Test Cases/Techno_GlobeViewer/TestGlobeViewerUI
+
+2018-04-16 16:55:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:55:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 16:55:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Preferences' is clicked on
+
+2018-04-16 16:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Preferences' is clicked on
+
+2018-04-16 16:55:36 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Preferences' is right clicked on
+
+2018-04-16 16:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Preferences' is right clicked on
+
+2018-04-16 16:55:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/li_Show labels' is clicked on
+
+2018-04-16 16:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/li_Show labels' is clicked on
+
+2018-04-16 16:55:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Theme Options' is clicked on
+
+2018-04-16 16:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Theme Options' is clicked on
+
+2018-04-16 16:55:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-16 16:55:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-16 16:55:41 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Dark_Theme.png' is clicked on
+
+2018-04-16 16:55:45 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Dark_Theme.png' is clicked on
+
+2018-04-16 16:55:45 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Minimal_Theme.png' is clicked on
+
+2018-04-16 16:55:49 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Minimal_Theme.png' is clicked on
+
+2018-04-16 16:55:49 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Natural_Theme.png' is clicked on
+
+2018-04-16 16:55:53 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/Natural_Theme.png' is clicked on
+
+2018-04-16 16:55:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Interaction Options' is clicked on
+
+2018-04-16 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Interaction Options' is clicked on
+
+2018-04-16 16:55:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Advanced Options' is clicked on
+
+2018-04-16 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Advanced Options' is clicked on
+
+2018-04-16 16:55:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Markers' is clicked on
+
+2018-04-16 16:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Markers' is clicked on
+
+2018-04-16 16:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_AddEdit Marker' is clicked on
+
+2018-04-16 16:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_AddEdit Marker' is clicked on
+
+2018-04-16 16:55:54 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globe.png' is clicked on
+
+2018-04-16 16:55:57 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globe.png' is clicked on
+
+2018-04-16 16:55:57 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_Globe2.png' is clicked on
+
+2018-04-16 16:56:01 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_Globe2.png' is clicked on
+
+2018-04-16 16:56:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Delete Marker' is clicked on
+
+2018-04-16 16:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Delete Marker' is clicked on
+
+2018-04-16 16:56:01 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globeMarkedR.png' is clicked on
+
+2018-04-16 16:56:05 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globeMarkedR.png' is clicked on
+
+2018-04-16 16:56:05 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globeMarkedB.png' is clicked on
+
+2018-04-16 16:56:10 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globeMarkedB.png' is clicked on
+
+2018-04-16 16:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Areas' is clicked on
+
+2018-04-16 16:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Areas' is clicked on
+
+2018-04-16 16:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_ColorEdit Area' is clicked on
+
+2018-04-16 16:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_ColorEdit Area' is clicked on
+
+2018-04-16 16:56:10 - [TEST_STEP][PASSED] - clickImage: Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globe.png' is clicked on
+
+2018-04-16 16:56:14 - [MESSAGE][PASSED] - Image: 'C:\Users\ads\git\TechnoQA\Object Repository/Techno_GlobeViewer/Page_GlobeViewer/image_globe.png' is clicked on
+
+2018-04-16 16:56:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Delete Color' is clicked on
+
+2018-04-16 16:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Delete Color' is clicked on
+
+2018-04-16 16:56:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Manage' is clicked on
+
+2018-04-16 16:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/span_Manage' is clicked on
+
+2018-04-16 16:56:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Load Data' is clicked on
+
+2018-04-16 16:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Load Data' is clicked on
+
+2018-04-16 16:56:15 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-16 16:56:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-16 16:56:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Save' is clicked on
+
+2018-04-16 16:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Techno_GlobeViewer/Page_GlobeViewer/div_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2018-04-16 16:56:15 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2018-04-16 16:56:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-16 16:56:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 16:56:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/Page_Logout/div_profile-picture' is clicked on
+
+2018-04-16 16:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout/div_profile-picture' is clicked on
+
+2018-04-16 16:56:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout/Page_Logout/span_Sign Out' is clicked on
+
+2018-04-16 16:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout/span_Sign Out' is clicked on
+
+2018-04-16 16:56:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-16 16:56:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-16 16:54:59 - [TEST_SUITE][PASSED] - GlobeViewerTest: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

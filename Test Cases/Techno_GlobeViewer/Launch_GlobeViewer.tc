@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Launch Globe Viewer</description>
+   <name>Launch_GlobeViewer</name>
+   <tag>Launch_GlobeViewer</tag>
+   <comment></comment>
+   <testCaseGuid>c63c0933-3a85-46dc-8d84-fbe046591355</testCaseGuid>
+</TestCaseEntity>
