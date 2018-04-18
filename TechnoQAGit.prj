@@ -8,5 +8,6 @@
       <type>PROJECT</type>
    </integratedEntity>
    <UUID>07b30714-2fca-48b9-b809-3bc67caf6eb9</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
