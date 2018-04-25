@@ -19,7 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+// TEST COMMENT
 WebUI.refresh()
+
+WS.comment('ENTER UPLoadDataIn3DSpace')
 
 WebUI.waitForElementPresent(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_DS - DSQAL111 euw1'), 
     10)
