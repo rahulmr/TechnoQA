@@ -50,7 +50,7 @@ WebUI.click(findTestObject('3DSpace/UploadFileInCollabSpace/Upload/Page_My First
 
 'Upload data in 3DSpace'
 CustomKeywords.'upload.uploadFiles.uploadFile'(findTestObject('3DSpace/UploadFileInCollabSpace/Page_My First Dashboard/span_Add content'), 
-    'C:\\Users\\svc_QATechno\\.jenkins\\workspace\\TechnoQA_R2018x\\TechnoQAGit\\Data Files\\rennes2015_widget.json')
+    '\\\\technoqa\\data\\Automation\\KATALON\\DATA\\rennes2015_widget.json')
 
 Thread.sleep(2000)
 
