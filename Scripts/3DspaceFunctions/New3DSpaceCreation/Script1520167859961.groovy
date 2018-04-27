@@ -24,7 +24,7 @@ WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpa
 
 WebUI.click(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/span_New Collaborative Space'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/input_newContainerName'), ' Technoqa3103')
+WebUI.setText(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/input_newContainerName'), ' Technoqa')
 
 WebUI.setText(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/input_description'), 'technoqa technoqa')
 
