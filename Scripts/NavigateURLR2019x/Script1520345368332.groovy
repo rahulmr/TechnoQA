@@ -23,7 +23,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 
 'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20swi10301-iam.3dx-staging.3ds.com/cas/login?serverId=FRONT_0&service=https%3A//euw1-20swi10301-ifwe.3dx-staging.3ds.com/')
+WebUI.navigateToUrl('https://euw1-21qna10425-ifwe.3dx-staging.3ds.com/')
 
 'Maximize the browser window'
 WebUI.maximizeWindow()

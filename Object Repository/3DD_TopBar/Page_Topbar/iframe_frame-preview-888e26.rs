@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[@id = 'frame-preview-888e26' and @frameborder = '0' and @width = '100%' and @scrolling = 'auto' and @height = '100%']</value>
+         <value>//iframe[@frameborder = '0' and @width = '100%' and @scrolling = 'auto' and @height = '100%']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
