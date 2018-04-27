@@ -26,18 +26,22 @@ WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInComp
 WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/input_compass-search-text form'), 
     '3DSpace', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
     30, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_DS - DSQAL038 euw1'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), FailureHandling.OPTIONAL)
+not_run: WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
+not_run: WebUI.waitForPageLoad(30, FailureHandling.OPTIONAL)
 
-WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 30, FailureHandling.OPTIONAL)
+not_run: WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 
+    30, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementPresent(findTestObject('3DSpace/CreateNewCollabSpace/Page_CreateNewCollabSpace/div_3DSpace'), 20)
 
