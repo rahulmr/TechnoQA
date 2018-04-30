@@ -31,9 +31,11 @@ WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/in
 'Click on submit button'
 WebUI.click(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('LoginToPod/AcceptCondition/Page_3DPassport - Data Privacy Poli/div_required aligned-checkbox'))
+WebUI.click(findTestObject('LoginToPod/AcceptCondition/Page_3DPassport - Data Privacy Poli/div_required aligned-checkbox'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('LoginToPod/AcceptCondition/Page_3DPassport - Data Privacy Poli/input_uwa-submit uwa-submit-ro'))
+WebUI.click(findTestObject('LoginToPod/AcceptCondition/Page_3DPassport - Data Privacy Poli/input_uwa-submit uwa-submit-ro'), 
+    FailureHandling.OPTIONAL)
 
 WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/span_3DEXPERIENCE'), FailureHandling.CONTINUE_ON_FAILURE)
 
