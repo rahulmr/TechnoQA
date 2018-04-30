@@ -3,7 +3,7 @@
    <description></description>
    <name>input_uwa-submit uwa-submit-ro</name>
    <tag></tag>
-   <elementGuidId>c02b67ff-e4eb-4df0-8207-db19cc072ea3</elementGuidId>
+   <elementGuidId>c5e7bdf1-d5f8-412c-a223-daeb0c4821ea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,10 +32,10 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>uwa-submit uwa-submit-root uwa-input uwa-input-root  uwa-submit-submit uwa-input-submit hover focus</value>
+      <value>uwa-submit uwa-submit-root uwa-input uwa-input-root  uwa-submit-submit uwa-input-submit hover</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -46,6 +46,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;inner&quot;)/div[@class=&quot;uwa-panel panel-form login-panel&quot;]/form[@class=&quot;uwa-input-form login-form&quot;]/div[@class=&quot;commands&quot;]/input[@class=&quot;uwa-submit uwa-submit-root uwa-input uwa-input-root  uwa-submit-submit uwa-input-submit hover focus&quot;]</value>
+      <value>id(&quot;inner&quot;)/div[@class=&quot;uwa-panel panel-form login-panel&quot;]/form[@class=&quot;uwa-input-form login-form&quot;]/div[@class=&quot;commands&quot;]/input[@class=&quot;uwa-submit uwa-submit-root uwa-input uwa-input-root  uwa-submit-submit uwa-input-submit hover&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

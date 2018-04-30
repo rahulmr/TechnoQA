@@ -3,7 +3,7 @@
    <description></description>
    <name>span_I agree to the terms of t</name>
    <tag></tag>
-   <elementGuidId>f8468b68-3124-425a-877a-769d8156159d</elementGuidId>
+   <elementGuidId>2aaa49c9-ad00-4c4c-9f59-92139b1029c5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +14,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -36,10 +36,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>I agree to the terms of the privacy policy.</value>
+      <value>I agree to the terms of the Privacy Policy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
