@@ -61,3 +61,9 @@ WebUI.click(findTestObject('SearchData/Page_SearchData/button_Add'))
 'Verify the data is present'
 WebUI.verifyElementPresent(findTestObject('Data/Page_Test JCN9 auto/div_rennes2015_widget'), 20)
 
+WebUI.verifyElementNotPresent(findTestObject('SearchData/SearchError/Page_SearchError/div_3DSearch Service could not'), 
+    10)
+
+WebUI.verifyElementNotPresent(findTestObject('SearchData/SearchError/Page_SearchError/b_3DSearch Service could not g'), 
+    20)
+

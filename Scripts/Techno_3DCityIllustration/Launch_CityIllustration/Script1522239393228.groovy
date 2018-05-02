@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCo
     'city illustration', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), 
-    30, FailureHandling.OPTIONAL)
+    10, FailureHandling.OPTIONAL)
 
 'Click on arrow in front on app to select the tenant'
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_settings-img fonticon font'), FailureHandling.OPTIONAL)
@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInComp
 'Click on tab panel to have sucess message '
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_CityReferentialWidget/div_wp-tabview-panel'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(20, FailureHandling.OPTIONAL)
+WebUI.waitForPageLoad(10, FailureHandling.OPTIONAL)
 
 WebUI.waitForElementVisible(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/div_Success'), 10, FailureHandling.OPTIONAL)
 
@@ -51,5 +51,8 @@ WebUI.dragAndDropToObject(findTestObject('Techno_CityIllustration/Page_CityIllus
 'Expand the widget'
 WebUI.click(findTestObject('Techno_3Dcity_DDCityReferential/Page_SearchAppInCompass/span_fonticon fonticon-resize-'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForPageLoad(10, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Techno_CityIllustration/Page_CityIllustrationUI/span_Create New Illustration'), 
+    10)
 

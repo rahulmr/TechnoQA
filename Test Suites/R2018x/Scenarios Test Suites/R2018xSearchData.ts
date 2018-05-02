@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>SCN047516_City_Illustration_ UIRoleTest</description>
-   <name>SCN047516_City_Illustration_ UIRoleTest</name>
+   <description>SearchData</description>
+   <name>R2018xSearchData</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-02T10:26:51</lastRun>
+   <lastRun>2018-05-02T10:52:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>2dfaff02-5204-4f1d-8233-f25975b8b703</testSuiteGuid>
+   <testSuiteGuid>6381eddd-6d04-42ca-a5b9-cbc33eac9860</testSuiteGuid>
    <testCaseLink>
-      <guid>97167bfa-51a0-4f8c-81ce-82ae1787d645</guid>
+      <guid>d101e2fb-82ed-4cb6-87d9-c5a0acb74911</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/NavigateURLR2018x</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c380216-fac1-428a-985d-eadc19845c8d</guid>
+      <guid>39a9a34b-f165-4723-b7a4-c531d7c0fac5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginToPod</testCaseId>
@@ -36,31 +36,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d8b1711-1191-4754-9db6-ca00b2f70107</guid>
+      <guid>0f8274a1-bc03-4e15-b3d5-b985e1e9197d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DashboardFunctions/CreateNewDashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>58cb571e-24ec-4c6b-943e-7f5835319661</guid>
+      <guid>c5ada2e2-e425-4f8d-836a-0c106e61415d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CompassFunctions/SmallCompassWest</testCaseId>
+      <testCaseId>Test Cases/3DSearch/SearchData</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fe46517-e635-47c8-949b-5ce868c42f8a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Techno_3DCityIllustration/Launch_CityIllustration</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a3aab8ff-6a50-4dd8-879a-3d1d4c39989f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Techno_3DCityIllustration/TestCityIllustrationUI</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f8dce4fa-3397-445c-9b82-99d29eb50613</guid>
+      <guid>c44c6377-0a21-4fec-aab6-26a8efca485f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Logout</testCaseId>

@@ -4,6 +4,7 @@
    <name>SCN048007 Auto_BasicSanityTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-04-27T15:51:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,6 +22,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginToPod</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da899721-cfd1-4048-84af-ffc8a1b1a375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c2a10df5-a69c-4e8b-9f24-c43e8fdb10cd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2c64bac6-1906-42db-b65d-78e701f56bfe</guid>

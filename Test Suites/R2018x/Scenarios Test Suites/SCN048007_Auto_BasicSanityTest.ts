@@ -4,7 +4,7 @@
    <name>SCN048007_Auto_BasicSanityTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-10T19:01:27</lastRun>
+   <lastRun>2018-04-30T11:48:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
@@ -22,6 +22,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginToPod</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da899721-cfd1-4048-84af-ffc8a1b1a375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c2a10df5-a69c-4e8b-9f24-c43e8fdb10cd</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7e42f1eb-2e38-4aaa-808c-67ad732c9a9f</guid>
@@ -68,7 +80,7 @@
    <testCaseLink>
       <guid>3dfe0de1-75e6-4084-849a-f93a04608608</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/3DSearch/SearchData</testCaseId>
    </testCaseLink>
    <testCaseLink>
