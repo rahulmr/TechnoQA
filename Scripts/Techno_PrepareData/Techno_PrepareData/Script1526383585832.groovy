@@ -19,16 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
-WebUI.openBrowser('')
+def info = ['urlR2018x': '', 'username' : '', 'password': '', 'urlR2019x': '' ]
 
-def info = WebUI.callTestCase(findTestCase('Techno_PrepareData/Techno_PrepareData'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+def data = TestDataFactory.findTestData("Data Files/TechnoData")
 
-def urlR2019x = info.urlR2019x
+info.urlR2018x = data.getValue(1,1)
+info.username = data.getValue(2,1)
+info.password = data.getValue(3,1)
+info.urlR2019x = data.getValue(1,2)
 
-'Enter POD URL in the browser'
-WebUI.navigateToUrl(urlR2019x)
-
-'Maximize the browser window'
-WebUI.maximizeWindow()
-
+return info

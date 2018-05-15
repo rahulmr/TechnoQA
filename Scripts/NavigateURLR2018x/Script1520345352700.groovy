@@ -22,8 +22,12 @@ import internal.GlobalVariable as GlobalVariable
 'Open Browser'
 WebUI.openBrowser('')
 
+def info = WebUI.callTestCase(findTestCase('Techno_PrepareData/Techno_PrepareData'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+def urlR2018x = info.urlR2018x
+
 'Enter POD URL in the browser'
-WebUI.navigateToUrl('https://euw1-20qna10404-ifwe.3dx-staging.3ds.com/')
+WebUI.navigateToUrl(urlR2018x)
 
 'Maximize the browser window'
 WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)

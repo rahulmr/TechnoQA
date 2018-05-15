@@ -20,11 +20,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+def info = WebUI.callTestCase(findTestCase('Techno_PrepareData/Techno_PrepareData'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+def username = info.username
+
+def password = info.password
+
 'Enter user name'
-WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_username'), 'Technoqa', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_username'), username, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Enter password'
-WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_password'), 'Techno2016#', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('LoginToPod/Page_3DPassport - Login/input_password'), password, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('LoginToPod/Page_3DPassport - Login/input_uwa-submit uwa-submit-ro'), FailureHandling.CONTINUE_ON_FAILURE)
 
